@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #564A3A;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.acesso{
+    display: flex;
+}
+.logo figure img{
+    margin-left: 1em;
+    margin-right: 3em;
+    width: 2em;
+    height: 2em;
+}
+.nome-slogan figure img{
+    width: 15em;
+    height: 3em;
+}
+.carrinho img{
+    width: 2em;
+    height: 2em;
+}
+.login img{
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 2em;
+    height: 2em;
+}
+header hr{
+    border: 0;
+    height: 1px;
+    background: #FF7A00;
+    opacity: 50%;
+}
+.menu nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly
+}
+.menu nav ul li{
+    margin: 0.5em;
+}
+.menu nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.marcador{
+    color:#FF7A00 !important;
+    opacity: 50%;
+}
+.introducao-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.introducao-perfil figure img{
+    width: 10em;
+    margin: 1em;
+}
+.introducao-perfil p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 50%;
+    width: 50em;
+    line-height: 1.5em;
+    margin-left: 5em;
+}
+.card-compra{
+    background-color: #564A3A;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 2em;
+}
+.card-compra figure{
+    margin: 1em;
+    height: 75%;
+    width: 80%;
+}
+.card-compra figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.card-compra div p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.btn-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+.texto-card{
+    text-align: center;
+}
+.btn-card button{
+    width: 60%;
+    height: 50%;
+    margin: 0.5em;
+    border: 0;
+    border-radius: 5px;
+}
+.btn-card button figure img{
+    margin-top: -0.8em;
+    margin-left: -1.3em;
+    width: 2em;
+    height: 2em;
+}
+.btn-card button p{
+    margin-top: 0.2em;
+    color:#564A3A;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner figure img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.texto-banner{
+    position: absolute;
+    top: 43vh;
+    width: 40em;
+}
+.texto-banner p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+.btn-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 3vw;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 2em;
+}
+.btn-banner a{
+    color: #564A3A;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#btn_form:hover{
+    cursor: pointer;
+}
+.form-login{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -150%;
+    margin-left: 35%;
+    visibility: hidden;
+}
+.form-login form{
+    width: 100%;
+    border-radius: 5px;
+}
+.titulo-login{
+    background-color: #564A3A;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+}
+.titulo-login button{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #564A3A;
+    border: 0;
+    color: white;
+    margin-right: 1em;
+}
+.titulo-login p:hover{
+    cursor: pointer;
+}
+.form-login h1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color:white;
+    text-align: center;
+    padding: 0.3em;
+    margin-right: 4.5em;
+}
+.dados-login{
+    margin: 1em 5em;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+.dados label{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.dados input{
+    background-color: #564A3A;
+    opacity: 40%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn input{
+    background-color: #564A3A;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    border: 0;
+    border-radius: 5px;
+    height: 2.5em;
+    width: 7em;
+    margin-top: 1em;
+}
+.link-login{
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.link-login a{
+    text-decoration: none;
+}
+.tipo-de-produto .titulo{
+    margin-top: -0.3em;
+}
+.titulo{
+    background-color: #564A3A;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.cards{
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #564A3A;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 2em;
+}
+.card figure{
+    margin: 1em;
+    height: 80%;
+    width: 85%;
+}
+.card figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.card p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.perfis-fornecedores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-perfis{
+    width: 75%;
+    padding: 2em;
+}
+.texto-perfis p{
+    color:black;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    opacity: 50%;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+.perfis{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.perfil p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 1em;
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.bolinha-selecionada{
+    background-color: #564A3A;
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    margin: 0.5em;
+    cursor: pointer;
+}
+.bolinha{
+    background-color: #564A3A;
+    height: 0.7em;
+    width: 0.7em;
+    border-radius: 100%;
+    margin: 0.5em;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0.5em;
+    background-color: #564A3A;
+}
+footer p{
+    color: white;
+    margin: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.links p{
+    margin-bottom: 2em;
+}
+.links-contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.redes-sociais{
+    display: flex;
+}
+.redes-sociais figure{
+    margin-left: 2em;
+}
