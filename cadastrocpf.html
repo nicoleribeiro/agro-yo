@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="./img/Logo-marrom.png"  />
-    <title>Sobre nós</title>
+    <title>Cadastro de CPF</title>
 </head>
 <body>
     <div class="container" id="escurecer">
@@ -43,8 +43,98 @@
                 </nav>
             </div>
         </header>
-        <div class="banner">
-
+        <div class="cadastro-cpf">
+            <form action="#" method="POST" class="cadCpf">
+                <div class="titulo-comum">
+                    <h1>Cadastro de CPF</h1>
+                </div>
+                <p>Preencha os campos abaixo:</p>
+                <fieldset class="dadosPessoais">
+                    <legend>Dados Pessoais</legend>
+                    <div class="dados-pf">
+                        <label for="idTxtName">Nome</label>
+                        <input type="text" name="name" id="idTxtName" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idNumCpf">CPF</label>
+                        <input type="text" name="cpf" id="idNumCpf" placeholder="XXX.XXX.XXX-XX" maxlength="14" pattern="^\d{3}\.?\d{3}\.?\d{3}-?\d{2}$" title="Ex: XXX.XXX.XXX-XX (Pontos e traços são opcionais.)" required>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idTxtEmail">E-mail</label>
+                        <input type="email" name="email" id="idTxtEmail" placeholder="example@example.com" pattern="^[a-z0-9]{3,50}@[a-z0-9]{2,50}.[a-z0-9]{2,3}$" title="example@example.com" required>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idIdade">Idade</label>
+                        <input type="number" name="idade" id="idIdade" pattern="^\d{2}$" title="Dois dígitos para a idade." required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idSexo">Sexo</label>
+                        <select id="idSexo">
+                            <option value="0" selected>Selecione:</option>
+                            <option value="f">Feminino</option>
+                            <option value="m">Masculino</option>
+                            <option value="o">Outro</option>
+                        </select>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idNumTelefone">Telefone</label>
+                        <input type="text" name="telefone" id="idNumTelefone" placeholder="(99) 99999-9999" maxlength="15" pattern="^\(?[0-9]{2}\)? ?[0-9]{4,6}-?[0-9]{3,4}$" title="(99) 99999-9999 (Parênteses e traços são opcionais)." required/>
+                    </div>
+                </fieldset>
+                <fieldset class="endereco">
+                    <legend>Endereço</legend>
+                    <div class="dados-pf">
+                        <label for="idRua">Rua/Avenida</label>
+                        <input type="text" name="logradouro" id="idRua" maxlength="50" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idCep">CEP</label>
+                        <input type="text" name="cep" id="idCep" placeholder="99999-999" maxlength="9" pattern="^\d{5}\-?\d{3}\$" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idCidade">Cidade</label>
+                        <input type="text" name="cidade" id="idCidade" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idNumero">Número</label>
+                        <input type="number" name="numero" id="idNumero" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idComp">Complemento</label>
+                        <input type="text" name="complemento" id="idComp" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idBairro">Bairro</label>
+                        <input type="text" name="bairro" id="idBairro" required/>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idSelEstados">Estado</label>
+                        <select id="idSelEstados">
+                            <option selected>Selecione:</option>
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Santa Catarina</option>
+                            <option>Bahia</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Amazonas</option>
+                        </select>
+                    </div>
+                    <div class="dados-pf">
+                        <label for="idSelPaises">País</label>
+                        <select id="idSelPaises">
+                            <option selected>Selecione:</option>
+                            <option>Brasil</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="dados-pf-btn">
+                    <input type="reset" name="limpar" id="idBtnReset" class="btn-pf" value="Limpar dados"/>
+                    <input type="submit" name="btnCadastrar" onclick="validarDadosCpf();ExibirDadosCPF(idTxtName.value,
+                    idNumCpf.value,idTxtEmail.value,idIdade.value,idNumTelefone.value,idRua.value,
+                idCep.value,idCidade.value,idNumero.value,idComp.value,idBairro.value,idSelEstados.
+                    value,idSelPaises.value);validarCPF(idNumCpf.value)" id="idBtnCadastrar" class="btn-pf" value="Cadastrar"/>
+                </div>
+            </form>
         </div>
         <footer>
             <div class="integrantes">

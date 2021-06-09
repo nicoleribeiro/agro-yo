@@ -368,6 +368,65 @@ header hr{
 .dados-pj-btn input:hover{
     cursor: pointer;
 }
+.cadastro-cpf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro-cpf p{
+    font-size: 1.3em;
+    opacity: 70%;
+}
+.cadastro-cpf fieldset{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+.cadastro-cpf .dados-pf{
+    display: flex;
+    flex-direction: column;
+}
+.cadastro-cpf .dados-pf label{
+    margin: 0.5em 0;
+}
+.cadastro-cpf .dados-pf input{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.cadastro-cpf .dados-pf select{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.dados-pf-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.dados-pf-btn input{
+    background-color: #564A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2em;
+}
+.dados-pf-btn input:hover{
+    cursor: pointer;
+}
 .faleconosco{
     margin: 2em auto;
     width: 41%;
