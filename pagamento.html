@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="./img/Logo-marrom.png"  />
-    <title>Sobre nós</title>
+    <title>Dados de pagamento</title>
 </head>
 <body>
     <div class="container" id="escurecer">
@@ -43,8 +43,83 @@
                 </nav>
             </div>
         </header>
-        <div class="banner">
-
+        <div class="dados-pagamento">
+            <div class="progresso">
+                <h1>Seu Progresso</h1>
+                <div class="etapas">
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>1 - Carrinho</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>2 - Endereço</p>
+                    </div>
+                    <div class="etapa-atual">
+                        <hr class="linha">
+                        <p>3 - Pagamento</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>4 - Confirmação</p>
+                    </div>
+                </div>
+            </div>
+            <form action="#" method="POST" class="dadosPagamento">
+                <div class="titulo-comum">
+                    <h1>Dados de pagamento</h1>
+                </div>
+                <p>Preencha os campos abaixo:</p>
+                <fieldset class="pagamento">
+                    <legend>Pagamento</legend>
+                    <div class="dados-pag">
+                        <label for="idSelBandeira">Bandeira</label>
+                        <select id="idSelBandeira">
+                            <option selected>Selecione:</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                        </select>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idTxtName">Nome</label>
+                        <input type="text" name="name" id="idTxtName" required/>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idNumCartao">Nº do cartão</label>
+                        <input type="text" name="NumCartao" id="idNumCartao" required>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idValidade">Validade</label>
+                        <input type="date" name="validade" id="idValidade" required>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idCodSeg">Código de Segurança</label>
+                        <input type="number" name="codSeguranca" id="idCodSeg" pattern="^\d{3}$" title="Três dígitos para o código de segurança" maxlength="3" required/>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idSelTipoPag">Tipo de pagamento</label>
+                        <select id="idSelTipoPag">
+                            <option selected>Selecione:</option>
+                            <option>Crédito</option>
+                            <option>Débito</option>
+                            <option>Boleto</option>
+                        </select>
+                    </div>
+                    <div class="dados-pag">
+                        <label for="idParcelas">Parcelas</label>
+                        <select id="idParcelas">
+                            <option value="0" selected>Selecione:</option>
+                            <option value="1">1 x sem juros</option>
+                            <option value="2">2 x sem juros</option>
+                            <option value="3">3 x sem juros</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="dados-pag-btn">
+                    <input type="reset" name="limpar" id="idBtnReset" class="btn-pf" value="Limpar dados"/>
+                    <input type="submit" name="btnCadastrar" id="idBtnCadastrar" class="btn-pf" value="Cadastrar"/>
+                </div>
+            </form>
         </div>
         <footer>
             <div class="integrantes">

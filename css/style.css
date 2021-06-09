@@ -427,6 +427,66 @@ header hr{
 .dados-pf-btn input:hover{
     cursor: pointer;
 }
+.dados-pagamento{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dados-pagamento fieldset{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+.dados-pagamento p{
+    font-size: 1.3em;
+    opacity: 70%;
+}
+.dados-pagamento .dados-pag{
+    display: flex;
+    flex-direction: column;
+}
+.dados-pagamento .dados-pag label{
+    margin: 0.5em 0;
+}
+.dados-pagamento .dados-pag input{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.dados-pagamento .dados-pag select{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.dados-pag-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.dados-pag-btn input{
+    background-color: #564A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2em;
+}
+.dados-pag-btn input:hover{
+    cursor: pointer;
+}
+
 .faleconosco{
     margin: 2em auto;
     width: 41%;
