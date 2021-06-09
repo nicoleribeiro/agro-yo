@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="./img/Logo-marrom.png"  />
-    <title>Home</title>
+    <title>Fale Conosco</title>
 </head>
 <body>
     <div class="container" id="escurecer">
@@ -35,7 +35,7 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="index.html" class="marcador">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="todososprodutos.html">Produtos</a></li>
                         <li><a href="index.html#fornecedores">Fornecedores</a></li>
                         <li><a href="doacoes.html">Doações</a></li>
@@ -45,90 +45,39 @@
         </header>
         <div class="banner">
             <figure>
-                <img src="./img/Banner-Index.png" alt="Produtos agrícolas"/>
+                <img src="./img/Telefone.png" alt="Telefone"/>
             </figure>
-            <div class="texto-banner">
-                <p>Produtos frescos e de qualidade diretamente da sua casa</p>
-                <div class="btn-banner">
-                    <a href="todososprodutos.html">Veja nosso estoque</a>
-                </div>
-            </div>
         </div>
-        <div class="tipo-de-produto">
-            <div class="titulo">
-                <h1>Compre por tipo de produto</h1>
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <figure>
-                        <img src="./img/Temperos.png" alt="Temperos"/>
-                    </figure>
-                    <p>Temperos</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Maçãs.png" alt="Maçãs"/>
-                    </figure>
-                    <p>Frutas</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Espargo.png" alt="Espargo"/>
-                    </figure>
-                    <p>Legumes</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Alface.png" alt="Alface"/>
-                    </figure>
-                    <p>Verduras</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Café.png" alt="Café"/>
-                    </figure>
-                    <p>Grãos</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Plantas.png" alt="Plantas"/>
-                    </figure>
-                    <p>Sementes</p>
-                </div>
-            </div>
+        <div class="titulo">
+            <h1>Fale Conosco</h1>
         </div>
-        <div class="perfis-fornecedores" id="fornecedores">
-            <div class="titulo">
-                <h1>Compre por fornecedor</h1>
-            </div>
-            <div class="texto-perfis">
-                <p>Nós somos uma comunidade de agricultores que se uniram em um só lugar para fornecer nossos produtos, porém trabalhamos de forma individual, cada um com seu plantio e seu preço.</p>
-                <p>Em nossos perfis você pode encontrar todo o nosso estoque individual de produtos, bem como informações, dicas e técnicas de plantio.</p>
-            </div>
-            <div class="perfis">
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sra-maria.html"><img src="./img/Sra. Maria.png" alt="Senhora Maria"/></a>
-                    </figure>
-                    <p>Sra. Maria</p>
+        <div class="faleconosco">
+            <div class="contatos">
+                <div class="email">
+                    <h1>Por e-mail:</h1>
+                    <p>atendimento@agroyo.com</p>
                 </div>
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sr-jose.html"><img src="./img/Sr. José.png" alt="Senhor José"/></a>
-                    </figure>
-                    <p>Sr. José</p>
-                </div>
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sr-manoel.html"><img src="./img/Sr. Manoel.png" alt="Senhor Manoel"/></a>
-                    </figure>
-                    <p>Sr. Manoel</p>
+                <hr>
+                <div class="telefone">
+                    <h1>Por telefone:</h1>
+                    <p>(XX) 3012 - 9999</p>
                 </div>
             </div>
-            <div class="navegacao">
-                <div class="bolinha-selecionada"></div>
-                <div class="bolinha"></div>
-                <div class="bolinha"></div>
+            <div class="form-faleconosco">
+                <form action="#" method="POST">
+                    <h1>Ou preencha o formulário abaixo com a sua mensagem</h1>
+                    <label for="idNomeFC">Nome:</label>
+                    <input type="text" name="nome" id="idNomeFC"/>
+                    <label for="idEmailFC">E-mail:</label>
+                    <input type="email" name="email" id="idEmailFC"/>
+                    <label for="idAssuntoFC">Assunto:</label>
+                    <input type="text" name="assunto" id="idAssuntoFC"/>
+                    <label for="idMensagemFC">Mensagem:</label>
+                    <textarea name="mensagem" id="idMensagemFC" cols="30" rows="10"></textarea>
+                    <div class="btn-faleconosco">
+                        <button id="idBtnEnviarFC">Enviar</button>
+                    </div>
+                </form>
             </div>
         </div>
         <footer>

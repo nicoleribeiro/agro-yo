@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="./img/Logo-marrom.png"  />
-    <title>Home</title>
+    <title>Confirmação de pedido</title>
 </head>
 <body>
     <div class="container" id="escurecer">
@@ -35,7 +35,7 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="index.html" class="marcador">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="todososprodutos.html">Produtos</a></li>
                         <li><a href="index.html#fornecedores">Fornecedores</a></li>
                         <li><a href="doacoes.html">Doações</a></li>
@@ -43,93 +43,63 @@
                 </nav>
             </div>
         </header>
-        <div class="banner">
-            <figure>
-                <img src="./img/Banner-Index.png" alt="Produtos agrícolas"/>
-            </figure>
-            <div class="texto-banner">
-                <p>Produtos frescos e de qualidade diretamente da sua casa</p>
-                <div class="btn-banner">
-                    <a href="todososprodutos.html">Veja nosso estoque</a>
+        <div class="carrinho-dados">
+            <div class="titulo-comum">
+                <h1>Confirmação de pedido</h1>
+            </div>
+            <div class="progresso">
+                <h1>Seu Progresso</h1>
+                <div class="etapas">
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>1 - Carrinho</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>2 - Endereço</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>3 - Pagamento</p>
+                    </div>
+                    <div class="etapa-atual">
+                        <hr class="linha">
+                        <p>4 - Confirmação</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="tipo-de-produto">
-            <div class="titulo">
-                <h1>Compre por tipo de produto</h1>
+            <div class="table">
+                <h1 class="titulo-pedido">Pedido: #12345ABC</h1>
+                <table>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Subtotal</th>
+                        <th>Frete</th>
+                        <th>Desconto</th>
+                    </tr>
+                    <tr>
+                        <td class="produto">
+                            <h1>Rabanete</h1>
+                            <p>Fornecedor: Sr. Manoel</p>
+                        </td>
+                        <td>
+                            <p>R$30,00</p>
+                        </td>
+                        <td>
+                            <p>R$5,00</p>
+                        </td>
+                        <td>
+                            <p>R$10,00</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div class="cards">
-                <div class="card">
-                    <figure>
-                        <img src="./img/Temperos.png" alt="Temperos"/>
-                    </figure>
-                    <p>Temperos</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Maçãs.png" alt="Maçãs"/>
-                    </figure>
-                    <p>Frutas</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Espargo.png" alt="Espargo"/>
-                    </figure>
-                    <p>Legumes</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Alface.png" alt="Alface"/>
-                    </figure>
-                    <p>Verduras</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Café.png" alt="Café"/>
-                    </figure>
-                    <p>Grãos</p>
-                </div>
-                <div class="card">
-                    <figure>
-                        <img src="./img/Plantas.png" alt="Plantas"/>
-                    </figure>
-                    <p>Sementes</p>
+            <div class="valores">
+                <div class="total">
+                    <p>Total: R$ 25,00</p>
                 </div>
             </div>
-        </div>
-        <div class="perfis-fornecedores" id="fornecedores">
-            <div class="titulo">
-                <h1>Compre por fornecedor</h1>
-            </div>
-            <div class="texto-perfis">
-                <p>Nós somos uma comunidade de agricultores que se uniram em um só lugar para fornecer nossos produtos, porém trabalhamos de forma individual, cada um com seu plantio e seu preço.</p>
-                <p>Em nossos perfis você pode encontrar todo o nosso estoque individual de produtos, bem como informações, dicas e técnicas de plantio.</p>
-            </div>
-            <div class="perfis">
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sra-maria.html"><img src="./img/Sra. Maria.png" alt="Senhora Maria"/></a>
-                    </figure>
-                    <p>Sra. Maria</p>
-                </div>
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sr-jose.html"><img src="./img/Sr. José.png" alt="Senhor José"/></a>
-                    </figure>
-                    <p>Sr. José</p>
-                </div>
-                <div class="perfil">
-                    <figure>
-                        <a href="perfil-sr-manoel.html"><img src="./img/Sr. Manoel.png" alt="Senhor Manoel"/></a>
-                    </figure>
-                    <p>Sr. Manoel</p>
-                </div>
-            </div>
-            <div class="navegacao">
-                <div class="bolinha-selecionada"></div>
-                <div class="bolinha"></div>
-                <div class="bolinha"></div>
-            </div>
+            <p class="mensagem">Obrigada por comprar conosco!</p>
         </div>
         <footer>
             <div class="integrantes">
