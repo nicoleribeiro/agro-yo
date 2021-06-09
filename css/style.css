@@ -179,7 +179,7 @@ header hr{
     position: absolute;
     background-color: white;
     border-radius: 5px;
-    margin-top: -150%;
+    margin-top: -100%;
     margin-left: 35%;
     visibility: hidden;
 }
@@ -396,7 +396,7 @@ header hr{
 }
 .carrinho-dados{
     width: 40%;
-    margin: 1em auto;
+    margin: 10em auto;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -411,7 +411,7 @@ header hr{
 .carrinho-dados .mensagem{
     font-size: 2em;
     font-weight: bold;
-    margin: 1em;
+    margin: 2em 0;
     width: 100%;
     text-align: center;
 }
@@ -458,10 +458,11 @@ header hr{
 .table table{
     border: 1px solid black;
     border-collapse: collapse;
-    margin: 1em 0;
+    margin: 3em 0;
 }
 .table table tr td{
     border: 1px solid black;
+    padding: 1em;
 }
 .table table tr th{
     background-color: #564A3A;
@@ -469,9 +470,6 @@ header hr{
     font-size: 1em;
     padding: 0.5em;
     border: 1px solid black;
-}
-.table table tr td{
-    padding: 0.5em;
 }
 .table table tr .produto h1{
     font-size: 1em;
@@ -544,6 +542,13 @@ header hr{
     border-radius: 5px;
     margin: 0.5em 0;
 }
+.produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .botoes-carrinho{
     display: flex;
     flex-direction: column;
@@ -558,7 +563,7 @@ header hr{
     padding: 1em;
     border: 0;
     border-radius: 5px;
-    margin: 0.5em 0;
+    margin: 1em 0;
 }
 .botoes-carrinho button a{
     text-decoration: none;
