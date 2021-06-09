@@ -365,6 +365,35 @@ header hr{
     padding: 0.5em 1.5em;
     margin: 1em 40%;
 }
+.doacoes{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.doacoes .texto{
+    width: 60%;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+    opacity: 70%;
+}
+.doacoes .texto p{
+    margin: 1em 0;
+}
+.doacoes .imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.doacoes .imagens figure img{
+    margin: 5em 2em;
+    width: 26em;
+    height: 18em;
+    border-radius: 5px;
+}
 .carrinho-dados{
     width: 40%;
     margin: 1em auto;
@@ -375,8 +404,9 @@ header hr{
     align-items: center;
     padding: 2em;
 }
-.carrinho-dados .titulo-comum{
-    margin: 2em 0;
+.titulo-comum{
+    margin: 3em 0;
+    font-size: 0.7em;
 }
 .carrinho-dados .mensagem{
     font-size: 2em;
@@ -392,7 +422,7 @@ header hr{
     margin: 1em 0;
 }
 .progresso h1{
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 1em;
 }
 .progresso .etapas{
