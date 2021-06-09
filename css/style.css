@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 2em;
 }
 .acesso{
     display: flex;
@@ -42,7 +42,8 @@ header hr{
 .menu nav ul{
     display: flex;
     list-style: none;
-    justify-content:space-evenly
+    justify-content:space-evenly;
+    padding: 1em;
 }
 .menu nav ul li{
     margin: 0.5em;
@@ -56,6 +57,35 @@ header hr{
 .marcador{
     color:#FF7A00 !important;
     opacity: 50%;
+}
+.tipoCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10em;
+}
+.tipoCadastro p{
+    font-size: 1.3em;
+    margin: 1em;
+    opacity: 70%;
+}
+.links-tipos{
+    display: flex;
+    margin: 1em 0;
+}
+.links-tipos div{
+    background-color: #564A3A;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin: 5em 2em;
+}
+.links-tipos div a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 .introducao-perfil{
     display: flex;
@@ -179,7 +209,7 @@ header hr{
     position: absolute;
     background-color: white;
     border-radius: 5px;
-    margin-top: -100%;
+    margin-top: -90%;
     margin-left: 35%;
     visibility: hidden;
 }
@@ -406,7 +436,7 @@ header hr{
 }
 .titulo-comum{
     margin: 3em 0;
-    font-size: 0.7em;
+    font-size: 1.3em;
 }
 .carrinho-dados .mensagem{
     font-size: 2em;
