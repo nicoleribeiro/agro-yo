@@ -309,6 +309,65 @@ header hr{
     text-indent: 1.5em;
     line-height: 1.5em;
 }
+.cadastro-cnpj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro-cnpj p{
+    font-size: 1.3em;
+    opacity: 70%;
+}
+.cadastro-cnpj fieldset{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+.cadastro-cnpj .dados-pj{
+    display: flex;
+    flex-direction: column;
+}
+.cadastro-cnpj .dados-pj label{
+    margin: 0.5em 0;
+}
+.cadastro-cnpj .dados-pj input{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.cadastro-cnpj .dados-pj select{
+    background-color: #564A3A;
+    opacity: 30%;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.dados-pj-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.dados-pj-btn input{
+    background-color: #564A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2em;
+}
+.dados-pj-btn input:hover{
+    cursor: pointer;
+}
 .faleconosco{
     margin: 2em auto;
     width: 41%;
