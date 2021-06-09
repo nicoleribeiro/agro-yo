@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="./img/Logo-marrom.png"  />
-    <title>Sobre nós</title>
+    <title>Endereço de entrega</title>
 </head>
 <body>
     <div class="container" id="escurecer">
@@ -43,8 +43,87 @@
                 </nav>
             </div>
         </header>
-        <div class="banner">
-
+        <div class="endereco-entrega">
+            <div class="progresso">
+                <h1>Seu Progresso</h1>
+                <div class="etapas">
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>1 - Carrinho</p>
+                    </div>
+                    <div class="etapa-atual">
+                        <hr class="linha">
+                        <p>2 - Endereço</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>3 - Pagamento</p>
+                    </div>
+                    <div class="etapa">
+                        <hr class="linha">
+                        <p>4 - Confirmação</p>
+                    </div>
+                </div>
+            </div>
+            <form action="#" method="POST" class="dadosEndereco">
+                <div class="titulo-comum">
+                    <h1>Endereço de entrega</h1>
+                </div>
+                <p>Preencha os campos abaixo:</p>
+                <fieldset class="endereco">
+                    <legend>Endereço</legend>
+                    <div class="dados-end">
+                        <label for="idTxtName">Nome</label>
+                        <input type="text" name="name" id="idTxtName" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idTxtSobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="idTxtSobrenome" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idCEP">CEP</label>
+                        <input type="text" name="cep" id="idCEP" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idSelLogradouro">Tipo de logradouro</label>
+                        <select id="idSelLogradouro">
+                            <option selected>Selecione:</option>
+                            <option>Rua</option>
+                            <option>Viela</option>
+                            <option>Alameda</option>
+                            <option>Travessa</option>
+                        </select>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idLogradouro">Logradouro</label>
+                        <input type="text" name="logradouro" id="idLogradouro" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idNum">Número</label>
+                        <input type="number" name="numero" id="idNum" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idComp">Complemento</label>
+                        <input type="text" name="comp" id="idComp" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idBairro">Bairro</label>
+                        <input type="text" name="bairro" id="idBairro" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idCidade">Cidade</label>
+                        <input type="text" name="cidade" id="idCidade" required/>
+                    </div>
+                    <div class="dados-end">
+                        <label for="idEstado">Estado</label>
+                        <input type="text" name="estado" id="idEstado" required/>
+                    </div>
+                </fieldset>
+                <div class="dados-end-btn">
+                    <a href="carrinho.html"><input type="button" name="voltar" id="idBtnVoltar" class="btn-pag" value="Voltar para o carrinho"/></a>
+                    <a href="pagamento.html"><input type="submit" name="btnConfirmar" id="idBtnConfirmar" class="btn-pag" value="Ir para o pagamento"/></a>
+                </div>
+            </form>
         </div>
         <footer>
             <div class="integrantes">
