@@ -178,11 +178,11 @@
             <div class="dados-login">
                 <div class="dados">
                     <label for="idUsuario">Usuário</label>
-                    <input type="text" name="usuario" id="idUsuario" placeholder="Usuário"/>
+                    <input type="text" name="usuario" id="idUsuario" placeholder="Usuário" required/>
                 </div>
                 <div class="dados">
                     <label for="idSenha">Senha</label>
-                    <input type="password" name="senha" id="idSenha" placeholder="********"/>
+                    <input type="password" name="senha" id="idSenha" placeholder="********" pattern="^\d{5}\$" maxlength="5"/>
                 </div>
                 <div class="btn">
                     <input type="button" name="Entrar" value="Entrar" id="idBtnEntrar" class="btn-entrar">
