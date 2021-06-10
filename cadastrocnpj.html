@@ -124,10 +124,7 @@
                 </fieldset>
                 <div class="dados-pj-btn">
                     <input type="reset" name="limpar" id="idBtnReset" class="btn-pj" value="Limpar dados"/>
-                    <input type="submit" name="btnCadastrar" onclick="validarDadosCnpj();ExibirDadosCNPJ(idRazaoSocial.value,idNomeFantasia.value,
-                    idNumCnpj.value,idTxtEmail.value,idIdadeEmpresa.value,idNumTelefone.value,idRua.value,
-                idCep.value,idCidade.value,idNumero.value,idComp.value,idBairro.value,idSelEstados.
-                    value,idSelPaises.value)" id="idBtnCadastrar" class="btn-pj" value="Cadastrar"/>
+                    <input type="submit" name="btnCadastrar" onclick="validarDadosCnpj()" id="idBtnCadastrar" class="btn-pj" value="Cadastrar"/>
                 </div>
             </form>
         </div>
@@ -180,7 +177,7 @@
                     <input type="password" name="senha" id="idSenha" placeholder="********" pattern="^\d{5}\$" maxlength="5"/>
                 </div>
                 <div class="btn">
-                    <input type="button" name="Entrar" value="Entrar" id="idBtnEntrar" class="btn-entrar">
+                    <input type="button" name="Entrar" value="Entrar" onclick="validarLogin()" id="idBtnEntrar" class="btn-entrar">
                 </div>
             </div>
             <div class="link-login">

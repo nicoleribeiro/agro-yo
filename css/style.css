@@ -1,64 +1,77 @@
-*{
+* {
     margin: 0;
 }
-header{
+
+header {
     background-color: #564A3A;
 }
-.infos{
+
+.infos {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em;
 }
-.acesso{
+
+.acesso {
     display: flex;
 }
-.logo figure img{
+
+.logo figure img {
     margin-left: 1em;
     margin-right: 3em;
     width: 2em;
     height: 2em;
 }
-.nome-slogan figure img{
+
+.nome-slogan figure img {
     width: 15em;
     height: 3em;
 }
-.carrinho img{
+
+.carrinho img {
     width: 2em;
     height: 2em;
 }
-.login img{
+
+.login img {
     margin-right: 1em;
     margin-left: 1em;
     width: 2em;
     height: 2em;
 }
-header hr{
+
+header hr {
     border: 0;
     height: 1px;
     background: #FF7A00;
     opacity: 50%;
 }
-.menu nav ul{
+
+.menu nav ul {
     display: flex;
     list-style: none;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 1em;
 }
-.menu nav ul li{
+
+.menu nav ul li {
     margin: 0.5em;
 }
-.menu nav ul li a{
+
+.menu nav ul li a {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.marcador{
-    color:#FF7A00 !important;
+
+.marcador {
+    color: #FF7A00 !important;
     opacity: 50%;
 }
-.tipoCadastro{
+
+.tipoCadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,38 +79,45 @@ header hr{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10em;
 }
-.tipoCadastro p{
+
+.tipoCadastro p {
     font-size: 1.3em;
     margin: 1em;
     opacity: 70%;
 }
-.links-tipos{
+
+.links-tipos {
     display: flex;
     margin: 1em 0;
 }
-.links-tipos div{
+
+.links-tipos div {
     background-color: #564A3A;
     padding: 1.5em;
     border-radius: 5px;
     margin: 5em 2em;
 }
-.links-tipos div a{
+
+.links-tipos div a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
 }
-.introducao-perfil{
+
+.introducao-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2em;
 }
-.introducao-perfil figure img{
+
+.introducao-perfil figure img {
     width: 10em;
     margin: 1em;
 }
-.introducao-perfil p{
+
+.introducao-perfil p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em;
@@ -106,7 +126,8 @@ header hr{
     line-height: 1.5em;
     margin-left: 5em;
 }
-.card-compra{
+
+.card-compra {
     background-color: #564A3A;
     width: 21%;
     display: flex;
@@ -116,75 +137,88 @@ header hr{
     border-radius: 5px;
     margin: 2em;
 }
-.card-compra figure{
+
+.card-compra figure {
     margin: 1em;
     height: 75%;
     width: 80%;
 }
-.card-compra figure img{
+
+.card-compra figure img {
     width: 100%;
     height: 100%;
     border-radius: 3px;
 }
-.card-compra div p{
+
+.card-compra div p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     margin-bottom: 1em;
 }
-.btn-card{
+
+.btn-card {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 85%;
 }
-.texto-card{
+
+.texto-card {
     text-align: center;
 }
-.btn-card button{
+
+.btn-card button {
     width: 60%;
     height: 50%;
     margin: 0.5em;
     border: 0;
     border-radius: 5px;
 }
-.btn-card button figure img{
+
+.btn-card button figure img {
     margin-top: -0.8em;
     margin-left: -1.3em;
     width: 2em;
     height: 2em;
 }
-.btn-card button p{
+
+.btn-card button p {
     margin-top: 0.2em;
-    color:#564A3A;
+    color: #564A3A;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.banner figure img{
+
+.banner figure img {
     position: relative;
     height: 100%;
     width: 100%;
 }
-.texto-banner{
+
+.texto-banner {
     position: absolute;
     top: 43vh;
     width: 40em;
 }
-.texto-banner p{
+
+.texto-banner p {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.3vw;
 }
-.btn-banner{
+
+.btn-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,17 +229,20 @@ header hr{
     margin-left: 35%;
     margin-top: 2em;
 }
-.btn-banner a{
+
+.btn-banner a {
     color: #564A3A;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1vw;
 }
-#btn_form:hover{
+
+#btn_form:hover {
     cursor: pointer;
 }
-.form-login{
+
+.form-login {
     position: absolute;
     background-color: white;
     border-radius: 5px;
@@ -213,18 +250,21 @@ header hr{
     margin-left: 35%;
     visibility: hidden;
 }
-.form-login form{
+
+.form-login form {
     width: 100%;
     border-radius: 5px;
 }
-.titulo-login{
+
+.titulo-login {
     background-color: #564A3A;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     border-radius: 5px;
 }
-.titulo-login button{
+
+.titulo-login button {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -233,32 +273,38 @@ header hr{
     color: white;
     margin-right: 1em;
 }
-.titulo-login p:hover{
+
+.titulo-login p:hover {
     cursor: pointer;
 }
-.form-login h1{
+
+.form-login h1 {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     font-size: 1.5em;
-    color:white;
+    color: white;
     text-align: center;
     padding: 0.3em;
     margin-right: 4.5em;
 }
-.dados-login{
+
+.dados-login {
     margin: 1em 5em;
 }
-.dados{
+
+.dados {
     display: flex;
     flex-direction: column;
 }
-.dados label{
+
+.dados label {
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
-.dados input{
+
+.dados input {
     opacity: 30%;
     border: 1px solid #564A3A;
     border-radius: 5px;
@@ -266,18 +312,21 @@ header hr{
     padding: 0.5em;
     margin-bottom: 0.5em;
 }
-.dados input:focus{
+
+.dados input:focus {
     border: 1px solid #564A3A;
     opacity: 70%;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn input{
+
+.btn input {
     background-color: #564A3A;
-    color:white;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em;
@@ -287,17 +336,20 @@ header hr{
     width: 7em;
     margin-top: 1em;
 }
-.link-login{
+
+.link-login {
     text-align: center;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 2em;
 }
-.link-login a{
+
+.link-login a {
     text-decoration: none;
 }
-.sobre-nos .texto{
+
+.sobre-nos .texto {
     margin: 2em auto;
     padding: 1em;
     background-color: #564A3A;
@@ -306,24 +358,28 @@ header hr{
     width: 50%;
     border-radius: 10px;
 }
-.sobre-nos .texto p{
+
+.sobre-nos .texto p {
     margin: 1em;
     color: white;
     text-indent: 1.5em;
     line-height: 1.5em;
 }
-.cadastro-cnpj{
+
+.cadastro-cnpj {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.cadastro-cnpj p{
+
+.cadastro-cnpj p {
     font-size: 1.3em;
     opacity: 70%;
 }
-.cadastro-cnpj fieldset{
+
+.cadastro-cnpj fieldset {
     font-size: 1em;
     font-weight: bold;
     color: black;
@@ -331,37 +387,48 @@ header hr{
     padding: 1em;
     margin: 2em 0;
 }
-.cadastro-cnpj .dados-pj{
+
+.cadastro-cnpj .dados-pj {
     display: flex;
     flex-direction: column;
 }
-.cadastro-cnpj .dados-pj label{
+
+.cadastro-cnpj .dados-pj label {
     margin: 0.5em 0;
 }
-.cadastro-cnpj .dados-pj input{
+
+.cadastro-cnpj .dados-pj input {
     opacity: 30%;
     border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
 }
-.cadastro-cnpj .dados-pj input:focus{
+
+.cadastro-cnpj .dados-pj input:focus {
     border: 1px solid #564A3A;
     opacity: 70%;
 }
-.cadastro-cnpj .dados-pj select{
-    background-color: #564A3A;
+
+.cadastro-cnpj .dados-pj select {
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
 }
-.dados-pj-btn{
+
+.cadastro-cnpj .dados-pj select:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.dados-pj-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1em 0;
 }
-.dados-pj-btn input{
+
+.dados-pj-btn input {
     background-color: #564A3A;
     color: white;
     border: none;
@@ -371,145 +438,25 @@ header hr{
     font-weight: bold;
     margin: 0 2em;
 }
-.dados-pj-btn input:hover{
-    cursor: pointer;
-}
-.cadastro-cpf{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.cadastro-cpf p{
-    font-size: 1.3em;
-    opacity: 70%;
-}
-.cadastro-cpf fieldset{
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-.cadastro-cpf .dados-pf{
-    display: flex;
-    flex-direction: column;
-}
-.cadastro-cpf .dados-pf label{
-    margin: 0.5em 0;
-}
-.cadastro-cpf .dados-pf input{
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-.cadastro-cpf .dados-pf input:focus{
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-.cadastro-cpf .dados-pf select{
-    background-color: #564A3A;
-    opacity: 30%;
-    border: 0;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-.dados-pf-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-.dados-pf-btn input{
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-.dados-pf-btn input:hover{
-    cursor: pointer;
-}
-.endereco-entrega{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.endereco-entrega p{
-    font-size: 1.3em;
-    opacity: 70%;
-}
-.endereco-entrega fieldset{
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-.endereco-entrega .dados-end{
-    display: flex;
-    flex-direction: column;
-}
-.endereco-entrega .dados-end label{
-    margin: 0.5em 0;
-}
-.endereco-entrega .dados-end input{
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-.endereco-entrega .dados-end input:focus{
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-.endereco-entrega .dados-end select{
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-.endereco-entrega .dados-end select:focus{
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-.dados-end-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-.dados-end-btn input{
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-.dados-end-btn input:hover{
+
+.dados-pj-btn input:hover {
     cursor: pointer;
 }
 
-.dados-pagamento{
-    font-family: Arial, Helvetica, sans-serif;
+.cadastro-cpf {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.dados-pagamento fieldset{
+
+.cadastro-cpf p {
+    font-size: 1.3em;
+    opacity: 70%;
+}
+
+.cadastro-cpf fieldset {
     font-size: 1em;
     font-weight: bold;
     color: black;
@@ -517,41 +464,48 @@ header hr{
     padding: 1em;
     margin: 2em 0;
 }
-.dados-pagamento p{
-    font-size: 1.3em;
-    opacity: 70%;
-}
-.dados-pagamento .dados-pag{
+
+.cadastro-cpf .dados-pf {
     display: flex;
     flex-direction: column;
 }
-.dados-pagamento .dados-pag label{
+
+.cadastro-cpf .dados-pf label {
     margin: 0.5em 0;
 }
-.dados-pagamento .dados-pag input{
+
+.cadastro-cpf .dados-pf input {
     opacity: 30%;
     border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
 }
-.dados-pagamento .dados-pag input:focus{
+
+.cadastro-cpf .dados-pf input:focus {
     border: 1px solid #564A3A;
     opacity: 70%;
 }
-.dados-pagamento .dados-pag select{
-    background-color: #564A3A;
+
+.cadastro-cpf .dados-pf select {
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
 }
-.dados-pag-btn{
+
+.cadastro-cpf .dados-pf select:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.dados-pf-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1em 0;
 }
-.dados-pag-btn input{
+
+.dados-pf-btn input {
     background-color: #564A3A;
     color: white;
     border: none;
@@ -561,63 +515,229 @@ header hr{
     font-weight: bold;
     margin: 0 2em;
 }
-.dados-pag-btn input:hover{
+
+.dados-pf-btn input:hover {
     cursor: pointer;
 }
-.faleconosco{
+
+.endereco-entrega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.endereco-entrega p {
+    font-size: 1.3em;
+    opacity: 70%;
+}
+
+.endereco-entrega fieldset {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.endereco-entrega .dados-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco-entrega .dados-end label {
+    margin: 0.5em 0;
+}
+
+.endereco-entrega .dados-end input {
+    opacity: 30%;
+    border: 1px solid #564A3A;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.endereco-entrega .dados-end input:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.endereco-entrega .dados-end select {
+    opacity: 30%;
+    border: 1px solid #564A3A;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.endereco-entrega .dados-end select:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.dados-end-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.dados-end-btn input {
+    background-color: #564A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2em;
+}
+
+.dados-end-btn input:hover {
+    cursor: pointer;
+}
+
+.dados-pagamento {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados-pagamento fieldset {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.dados-pagamento p {
+    font-size: 1.3em;
+    opacity: 70%;
+}
+
+.dados-pagamento .dados-pag {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-pagamento .dados-pag label {
+    margin: 0.5em 0;
+}
+
+.dados-pagamento .dados-pag input {
+    opacity: 30%;
+    border: 1px solid #564A3A;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.dados-pagamento .dados-pag input:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.dados-pagamento .dados-pag select {
+    opacity: 30%;
+    border: 1px solid #564A3A;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.dados-pagamento .dados-pag select:focus {
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
+
+.dados-pag-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.dados-pag-btn input {
+    background-color: #564A3A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2em;
+}
+
+.dados-pag-btn input:hover {
+    cursor: pointer;
+}
+
+.faleconosco {
     margin: 2em auto;
     width: 41%;
     padding: 1em;
 }
-.contatos{
+
+.contatos {
     display: flex;
     margin: 2em 0;
 }
-.contatos hr{
+
+.contatos hr {
     margin: 0 auto;
     width: 3px;
     border: none;
     background-color: black;
 }
-.email h1{
+
+.email h1 {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.email p{
+
+.email p {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     opacity: 50%;
 }
-.telefone h1{
+
+.telefone h1 {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.telefone p{
+
+.telefone p {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     opacity: 50%;
 }
-.form-faleconosco form{
+
+.form-faleconosco form {
     display: flex;
     flex-direction: column;
 }
-.form-faleconosco form h1{
+
+.form-faleconosco form h1 {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 1em 0;
 }
-.form-faleconosco form label{
+
+.form-faleconosco form label {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0.5em 0;
 }
-.form-faleconosco form input{
+
+.form-faleconosco form input {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -627,11 +747,13 @@ header hr{
     width: 97%;
     padding: 0.5em;
 }
-.form-faleconosco form input:focus{
+
+.form-faleconosco form input:focus {
     border: 1px solid #564A3A;
     opacity: 70%;
 }
-.form-faleconosco form textarea{
+
+.form-faleconosco form textarea {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -642,7 +764,8 @@ header hr{
     width: 97%;
     padding: 0.5em;
 }
-.btn-faleconosco button{
+
+.btn-faleconosco button {
     background-color: #564A3A;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -653,36 +776,42 @@ header hr{
     padding: 0.5em 1.5em;
     margin: 1em 40%;
 }
-.doacoes{
+
+.doacoes {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.doacoes .texto{
+
+.doacoes .texto {
     width: 60%;
     text-indent: 1.5em;
     line-height: 1.5em;
     font-size: 1em;
     opacity: 70%;
 }
-.doacoes .texto p{
+
+.doacoes .texto p {
     margin: 1em 0;
 }
-.doacoes .imagens{
+
+.doacoes .imagens {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.doacoes .imagens figure img{
+
+.doacoes .imagens figure img {
     margin: 5em 2em;
     width: 26em;
     height: 18em;
     border-radius: 5px;
 }
-.carrinho-dados{
+
+.carrinho-dados {
     width: 40%;
     margin: 10em auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -692,111 +821,134 @@ header hr{
     align-items: center;
     padding: 2em;
 }
-.titulo-comum{
+
+.titulo-comum {
     margin: 3em 0;
     font-size: 1.3em;
 }
-.carrinho-dados .mensagem{
+
+.carrinho-dados .mensagem {
     font-size: 2em;
     font-weight: bold;
     margin: 2em 0;
     width: 100%;
     text-align: center;
 }
-.progresso{
+
+.progresso {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1em 0;
 }
-.progresso h1{
+
+.progresso h1 {
     font-size: 1em;
     margin: 1em;
 }
-.progresso .etapas{
+
+.progresso .etapas {
     display: flex;
 }
-.progresso .etapas p{
+
+.progresso .etapas p {
     font-size: 0.8em;
     opacity: 70%;
 }
-.progresso .etapa-atual{
+
+.progresso .etapa-atual {
     margin: 0 1em;
 }
-.progresso .etapa{
+
+.progresso .etapa {
     margin: 0 1em;
 }
-.progresso .etapa-atual .linha{
+
+.progresso .etapa-atual .linha {
     margin: 0 auto;
-    height: 10px ;
+    height: 10px;
     border: none;
     border-radius: 10px;
     background-color: #4DBE66;
 }
-.progresso .etapa .linha{
+
+.progresso .etapa .linha {
     margin: 0 auto;
-    height: 10px ;
+    height: 10px;
     border: none;
     border-radius: 10px;
     background-color: #564A3A;
 }
-.titulo-pedido{
+
+.titulo-pedido {
     font-size: 1em;
 }
-.table table{
+
+.table table {
     border: 1px solid black;
     border-collapse: collapse;
     margin: 3em 0;
 }
-.table table tr td{
+
+.table table tr td {
     border: 1px solid black;
     padding: 1em;
 }
-.table table tr th{
+
+.table table tr th {
     background-color: #564A3A;
     color: white;
     font-size: 1em;
     padding: 0.5em;
     border: 1px solid black;
 }
-.table table tr .produto h1{
+
+.table table tr .produto h1 {
     font-size: 1em;
 }
-.table table tr .produto p{
+
+.table table tr .produto p {
     font-size: 0.8em;
     opacity: 70%;
 }
-.table table tr td p{
+
+.table table tr td p {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
 }
-.table table tr .qntd{
+
+.table table tr .qntd {
     padding: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0;
 }
-.table table tr .qntd div{
+
+.table table tr .qntd div {
     background-color: #564A3A;
-    color:white;
+    color: white;
     border-radius: 100%;
     height: 1em;
     width: 1em;
     text-align: center;
     padding: 0.1em;
 }
-.table table tr .qntd p{
+
+.table table tr .qntd p {
     margin: 0 1em;
 }
-.menor{
+
+.menor {
     cursor: pointer;
 }
-.maior{
+
+.maior {
     cursor: pointer;
 }
-.valores{
+
+.valores {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -805,21 +957,26 @@ header hr{
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.valores .subtotal{
+
+.valores .subtotal {
     display: flex;
 }
-.valores .marcar{
+
+.valores .marcar {
     font-weight: bold;
     margin-right: 0.2em;
     width: 100%;
 }
-.valores .frete{
+
+.valores .frete {
     display: flex;
 }
-.valores .desconto{
+
+.valores .desconto {
     display: flex;
 }
-.valores .total{
+
+.valores .total {
     display: flex;
     background-color: #564A3A;
     color: white;
@@ -830,21 +987,24 @@ header hr{
     border-radius: 5px;
     margin: 0.5em 0;
 }
-.produtos{
+
+.produtos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.botoes-carrinho{
+
+.botoes-carrinho {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 100%;
     margin-right: 3em;
 }
-.botoes-carrinho button{
+
+.botoes-carrinho button {
     background-color: #564A3A;
     font-size: 1em;
     font-weight: bold;
@@ -853,11 +1013,13 @@ header hr{
     border-radius: 5px;
     margin: 1em 0;
 }
-.botoes-carrinho button a{
+
+.botoes-carrinho button a {
     text-decoration: none;
     color: white;
 }
-.titulo{
+
+.titulo {
     background-color: #564A3A;
     height: 3em;
     width: 100%;
@@ -866,19 +1028,22 @@ header hr{
     justify-content: center;
     margin-top: -0.3em;
 }
-.titulo h1{
+
+.titulo h1 {
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.cards{
+
+.cards {
     margin: 1em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     background-color: #564A3A;
     width: 21%;
     display: flex;
@@ -888,34 +1053,40 @@ header hr{
     border-radius: 5px;
     margin: 2em;
 }
-.card figure{
+
+.card figure {
     margin: 1em;
     height: 80%;
     width: 85%;
 }
-.card figure img{
+
+.card figure img {
     width: 100%;
     height: 100%;
     border-radius: 3px;
 }
-.card p{
+
+.card p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     margin-bottom: 1em;
 }
-.perfis-fornecedores{
+
+.perfis-fornecedores {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.texto-perfis{
+
+.texto-perfis {
     width: 75%;
     padding: 2em;
 }
-.texto-perfis p{
-    color:black;
+
+.texto-perfis p {
+    color: black;
     text-indent: 1.5em;
     line-height: 1.5em;
     opacity: 50%;
@@ -923,25 +1094,29 @@ header hr{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold
 }
-.perfis{
+
+.perfis {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.perfil p{
+
+.perfil p {
     text-align: center;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 1em;
 }
-.navegacao{
+
+.navegacao {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1em;
 }
-.bolinha-selecionada{
+
+.bolinha-selecionada {
     background-color: #564A3A;
     height: 1em;
     width: 1em;
@@ -949,7 +1124,8 @@ header hr{
     margin: 0.5em;
     cursor: pointer;
 }
-.bolinha{
+
+.bolinha {
     background-color: #564A3A;
     height: 0.7em;
     width: 0.7em;
@@ -957,35 +1133,42 @@ header hr{
     margin: 0.5em;
     cursor: pointer;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
     padding: 2em 0.5em;
     background-color: #564A3A;
 }
-footer p{
+
+footer p {
     color: white;
     margin: 0.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-footer a{
+
+footer a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
-.links p{
+
+.links p {
     margin-bottom: 2em;
 }
-.links-contato{
+
+.links-contato {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.redes-sociais{
+
+.redes-sociais {
     display: flex;
 }
-.redes-sociais figure{
+
+.redes-sociais figure {
     margin-left: 2em;
 }

@@ -116,7 +116,7 @@
                 </fieldset>
                 <div class="dados-pag-btn">
                     <a href="endereco.html"><input type="button" name="voltar" id="idBtnVoltar" class="btn-pag" value="Voltar para endereço"/></a>
-                    <a href="confirmacao.html"><input type="submit" name="btnConfirmar" id="idBtnConfirmar" class="btn-pag" value="Confirmar e concluir"/></a>
+                    <a href="confirmacao.html"><input type="submit" name="btnConfirmar" onclick="validarDadosPagamento()" id="idBtnConfirmar" class="btn-pag" value="Confirmar e concluir"/></a>
                 </div>
             </form>
         </div>
@@ -169,7 +169,7 @@
                     <input type="password" name="senha" id="idSenha" placeholder="********" pattern="^\d{5}\$" maxlength="5"/>
                 </div>
                 <div class="btn">
-                    <input type="button" name="Entrar" value="Entrar" id="idBtnEntrar" class="btn-entrar">
+                    <input type="button" name="Entrar" value="Entrar" onclick="validarLogin()" id="idBtnEntrar" class="btn-entrar">
                 </div>
             </div>
             <div class="link-login">

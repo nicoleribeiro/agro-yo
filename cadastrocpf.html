@@ -129,10 +129,7 @@
                 </fieldset>
                 <div class="dados-pf-btn">
                     <input type="reset" name="limpar" id="idBtnReset" class="btn-pf" value="Limpar dados"/>
-                    <input type="submit" name="btnCadastrar" onclick="validarDadosCpf();ExibirDadosCPF(idTxtName.value,
-                    idNumCpf.value,idTxtEmail.value,idIdade.value,idNumTelefone.value,idRua.value,
-                idCep.value,idCidade.value,idNumero.value,idComp.value,idBairro.value,idSelEstados.
-                    value,idSelPaises.value);validarCPF(idNumCpf.value)" id="idBtnCadastrar" class="btn-pf" value="Cadastrar"/>
+                    <input type="submit" name="btnCadastrar" onclick="validarDadosCpf();validarCPF(idNumCpf.value)" id="idBtnCadastrar" class="btn-pf" value="Cadastrar"/>
                 </div>
             </form>
         </div>
@@ -185,7 +182,7 @@
                     <input type="password" name="senha" id="idSenha" placeholder="********" pattern="^\d{5}\$" maxlength="5"/>
                 </div>
                 <div class="btn">
-                    <input type="button" name="Entrar" value="Entrar" id="idBtnEntrar" class="btn-entrar">
+                    <input type="button" name="Entrar" value="Entrar" onclick="validarLogin()" id="idBtnEntrar" class="btn-entrar">
                 </div>
             </div>
             <div class="link-login">

@@ -120,7 +120,7 @@
                 </fieldset>
                 <div class="dados-end-btn">
                     <a href="carrinho.html"><input type="button" name="voltar" id="idBtnVoltar" class="btn-pag" value="Voltar para o carrinho"/></a>
-                    <a href="pagamento.html"><input type="submit" name="btnConfirmar" id="idBtnConfirmar" class="btn-pag" value="Ir para o pagamento"/></a>
+                    <a href="pagamento.html"><input type="submit" name="btnConfirmar" onclick="validarDadosEndereco()" id="idBtnConfirmar" class="btn-pag" value="Ir para o pagamento"/></a>
                 </div>
             </form>
         </div>
@@ -173,7 +173,7 @@
                     <input type="password" name="senha" id="idSenha" placeholder="********" pattern="^\d{5}\$" maxlength="5"/>
                 </div>
                 <div class="btn">
-                    <input type="button" name="Entrar" value="Entrar" id="idBtnEntrar" class="btn-entrar">
+                    <input type="button" name="Entrar" value="Entrar" onclick="validarLogin()" id="idBtnEntrar" class="btn-entrar">
                 </div>
             </div>
             <div class="link-login">
