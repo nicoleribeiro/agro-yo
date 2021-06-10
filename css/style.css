@@ -645,6 +645,89 @@
         height: 18%;
         border-radius: 5px;
     }
+
+    .endereco-entrega {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .endereco-entrega form {
+        max-width: 90%;
+    }
+
+    .endereco-entrega p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .endereco-entrega fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .endereco-entrega .dados-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereco-entrega .dados-end label {
+        margin: 0.5em 0;
+    }
+
+    .endereco-entrega .dados-end input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .endereco-entrega .dados-end input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .endereco-entrega .dados-end select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .endereco-entrega .dados-end select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-end-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-end-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 0.9em;
+        font-size: 0.7em;
+        font-weight: bold;
+        margin: 0 0.5em;
+    }
+
+    .dados-end-btn input:hover {
+        cursor: pointer;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -1294,6 +1377,89 @@
         height: 18%;
         border-radius: 5px;
     }
+
+    .endereco-entrega {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .endereco-entrega form {
+        max-width: 90%;
+    }
+
+    .endereco-entrega p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .endereco-entrega fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .endereco-entrega .dados-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereco-entrega .dados-end label {
+        margin: 0.5em 0;
+    }
+
+    .endereco-entrega .dados-end input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .endereco-entrega .dados-end input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .endereco-entrega .dados-end select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .endereco-entrega .dados-end select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-end-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-end-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 0.9em;
+        font-size: 0.7em;
+        font-weight: bold;
+        margin: 0 0.5em;
+    }
+
+    .dados-end-btn input:hover {
+        cursor: pointer;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -1935,6 +2101,85 @@
         width: 90%;
         height: 18%;
         border-radius: 5px;
+    }
+
+    .endereco-entrega {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .endereco-entrega p {
+        font-size: 1em;
+        opacity: 70%;
+    }
+
+    .endereco-entrega fieldset {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .endereco-entrega .dados-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereco-entrega .dados-end label {
+        margin: 1em 0;
+    }
+
+    .endereco-entrega .dados-end input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1.3em;
+    }
+
+    .endereco-entrega .dados-end input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .endereco-entrega .dados-end select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1.3em;
+    }
+
+    .endereco-entrega .dados-end select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-end-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2em 0;
+    }
+
+    .dados-end-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-end-btn input:hover {
+        cursor: pointer;
     }
 }
 
