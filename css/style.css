@@ -259,13 +259,16 @@ header hr{
     margin-bottom: 0.5em;
 }
 .dados input{
-    background-color: #564A3A;
-    opacity: 40%;
-    border: 0;
+    opacity: 30%;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     font-size: 1em;
     padding: 0.5em;
     margin-bottom: 0.5em;
+}
+.dados input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .btn{
     display: flex;
@@ -336,11 +339,14 @@ header hr{
     margin: 0.5em 0;
 }
 .cadastro-cnpj .dados-pj input{
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
+}
+.cadastro-cnpj .dados-pj input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .cadastro-cnpj .dados-pj select{
     background-color: #564A3A;
@@ -395,11 +401,14 @@ header hr{
     margin: 0.5em 0;
 }
 .cadastro-cpf .dados-pf input{
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
+}
+.cadastro-cpf .dados-pf input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .cadastro-cpf .dados-pf select{
     background-color: #564A3A;
@@ -454,18 +463,24 @@ header hr{
     margin: 0.5em 0;
 }
 .endereco-entrega .dados-end input{
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
 }
+.endereco-entrega .dados-end input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
+}
 .endereco-entrega .dados-end select{
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
+}
+.endereco-entrega .dados-end select:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .dados-end-btn{
     display: flex;
@@ -514,11 +529,14 @@ header hr{
     margin: 0.5em 0;
 }
 .dados-pagamento .dados-pag input{
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     padding: 0.5em;
+}
+.dados-pagamento .dados-pag input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .dados-pagamento .dados-pag select{
     background-color: #564A3A;
@@ -546,7 +564,6 @@ header hr{
 .dados-pag-btn input:hover{
     cursor: pointer;
 }
-
 .faleconosco{
     margin: 2em auto;
     width: 41%;
@@ -604,12 +621,15 @@ header hr{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: #564A3A;
     opacity: 30%;
-    border: 0;
+    border: 1px solid #564A3A;
     border-radius: 5px;
     width: 97%;
     padding: 0.5em;
+}
+.form-faleconosco form input:focus{
+    border: 1px solid #564A3A;
+    opacity: 70%;
 }
 .form-faleconosco form textarea{
     font-size: 1em;
