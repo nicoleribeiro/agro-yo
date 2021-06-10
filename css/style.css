@@ -728,6 +728,126 @@
     .dados-end-btn input:hover {
         cursor: pointer;
     }
+
+    .faleconosco {
+        margin: 1em auto;
+        width: 100%;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 1em 30%;
+    }
+
+    .contatos hr {
+        margin: 0 auto;
+        width: 3px;
+        border: none;
+        background-color: black;
+    }
+
+    .email h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .email p {
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .telefone h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .telefone p {
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .form-faleconosco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-faleconosco form {
+        width: 80%;
+    }
+
+    .form-faleconosco form h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+
+    .form-faleconosco form label {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0.3em 0;
+    }
+
+    .form-faleconosco form input {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .form-faleconosco form textarea {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 99%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form textarea:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn-faleconosco {
+        margin: 1em 30%;
+        width: 50%;
+    }
+
+    .btn-faleconosco button {
+        background-color: #564A3A;
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        width: 100%;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -1460,6 +1580,126 @@
     .dados-end-btn input:hover {
         cursor: pointer;
     }
+
+    .faleconosco {
+        margin: 1em auto;
+        width: 100%;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 1em 30%;
+    }
+
+    .contatos hr {
+        margin: 0 auto;
+        width: 3px;
+        border: none;
+        background-color: black;
+    }
+
+    .email h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .email p {
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .telefone h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .telefone p {
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .form-faleconosco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-faleconosco form {
+        width: 80%;
+    }
+
+    .form-faleconosco form h1 {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+
+    .form-faleconosco form label {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0.3em 0;
+    }
+
+    .form-faleconosco form input {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .form-faleconosco form textarea {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 99%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form textarea:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn-faleconosco {
+        margin: 1em 30%;
+        width: 50%;
+    }
+
+    .btn-faleconosco button {
+        background-color: #564A3A;
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        width: 100%;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -2057,7 +2297,7 @@
     .titulo {
         background-color: #564A3A;
         height: 2em;
-        width: 100%;
+        width: 97%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2180,6 +2420,126 @@
 
     .dados-end-btn input:hover {
         cursor: pointer;
+    }
+
+    .faleconosco {
+        margin: 1em auto;
+        width: 90%;
+    }
+
+    .contatos {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 1em 25%;
+    }
+
+    .contatos hr {
+        margin: 0 auto;
+        width: 3px;
+        border: none;
+        background-color: black;
+    }
+
+    .email h1 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .email p {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .telefone h1 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .telefone p {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .form-faleconosco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form-faleconosco form {
+        width: 50%;
+    }
+
+    .form-faleconosco form h1 {
+        font-size: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+
+    .form-faleconosco form label {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0.3em 0;
+    }
+
+    .form-faleconosco form input {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .form-faleconosco form textarea {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 99%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form textarea:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn-faleconosco {
+        margin: 1em 40%;
+        width: 30%;
+    }
+
+    .btn-faleconosco button {
+        background-color: #564A3A;
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        padding: 0.5em 1em;
+        width: 100%;
     }
 }
 
@@ -2944,12 +3304,16 @@
         font-size: 1em;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        background-color: #564A3A;
         opacity: 30%;
-        border: 0;
+        border: 1px solid #564A3A;
         border-radius: 5px;
         width: 97%;
         padding: 0.5em;
+    }
+
+    .form-faleconosco form textarea:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
     }
 
     .btn-faleconosco button {
