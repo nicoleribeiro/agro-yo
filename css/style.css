@@ -454,7 +454,7 @@
     }
 
     .titulo-pedido {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .table table {
@@ -1162,6 +1162,26 @@
         text-decoration: none;
         color: white;
     }
+
+    .carrinho-dados .mensagem {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 2em 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo-pedido {
+        font-size: 1em;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -1734,6 +1754,18 @@
     .botoes-carrinho button a {
         text-decoration: none;
         color: white;
+    }
+
+    .carrinho-dados .mensagem {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 2em 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo-pedido {
+        font-size: 1em;
     }
 }
 
