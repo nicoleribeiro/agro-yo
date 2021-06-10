@@ -1,1174 +1,2104 @@
-* {
-    margin: 0;
-}
-
-header {
-    background-color: #564A3A;
-}
-
-.infos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
-}
-
-.acesso {
-    display: flex;
-}
-
-.logo figure img {
-    margin-left: 1em;
-    margin-right: 3em;
-    width: 2em;
-    height: 2em;
-}
-
-.nome-slogan figure img {
-    width: 15em;
-    height: 3em;
-}
-
-.carrinho img {
-    width: 2em;
-    height: 2em;
-}
-
-.login img {
-    margin-right: 1em;
-    margin-left: 1em;
-    width: 2em;
-    height: 2em;
-}
-
-header hr {
-    border: 0;
-    height: 1px;
-    background: #FF7A00;
-    opacity: 50%;
-}
-
-.menu nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 1em;
-}
-
-.menu nav ul li {
-    margin: 0.5em;
-}
-
-.menu nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.marcador {
-    color: #FF7A00 !important;
-    opacity: 50%;
-}
-
-.tipoCadastro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10em;
-}
-
-.tipoCadastro p {
-    font-size: 1.3em;
-    margin: 1em;
-    opacity: 70%;
-}
-
-.links-tipos {
-    display: flex;
-    margin: 1em 0;
-}
-
-.links-tipos div {
-    background-color: #564A3A;
-    padding: 1.5em;
-    border-radius: 5px;
-    margin: 5em 2em;
-}
-
-.links-tipos div a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.introducao-perfil {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-}
-
-.introducao-perfil figure img {
-    width: 10em;
-    margin: 1em;
-}
-
-.introducao-perfil p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    opacity: 50%;
-    width: 50em;
-    line-height: 1.5em;
-    margin-left: 5em;
-}
-
-.card-compra {
-    background-color: #564A3A;
-    width: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin: 2em;
-}
-
-.card-compra figure {
-    margin: 1em;
-    height: 75%;
-    width: 80%;
-}
-
-.card-compra figure img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-}
-
-.card-compra div p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 1em;
-}
-
-.btn-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 85%;
-}
-
-.texto-card {
-    text-align: center;
-}
-
-.btn-card button {
-    width: 60%;
-    height: 50%;
-    margin: 0.5em;
-    border: 0;
-    border-radius: 5px;
-}
-
-.btn-card button figure img {
-    margin-top: -0.8em;
-    margin-left: -1.3em;
-    width: 2em;
-    height: 2em;
-}
-
-.btn-card button p {
-    margin-top: 0.2em;
-    color: #564A3A;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner figure img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-.texto-banner {
-    position: absolute;
-    top: 43vh;
-    width: 40em;
-}
-
-.texto-banner p {
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 2.3vw;
-}
-
-.btn-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15vw;
-    height: 3vw;
-    border-radius: 3px;
-    background-color: white;
-    margin-left: 35%;
-    margin-top: 2em;
-}
-
-.btn-banner a {
-    color: #564A3A;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1vw;
-}
-
-#btn_form:hover {
-    cursor: pointer;
-}
-
-.form-login {
-    position: absolute;
-    background-color: white;
-    border-radius: 5px;
-    margin-top: -90%;
-    margin-left: 35%;
-    visibility: hidden;
-}
-
-.form-login form {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.titulo-login {
-    background-color: #564A3A;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 5px;
-}
-
-.titulo-login button {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: #564A3A;
-    border: 0;
-    color: white;
-    margin-right: 1em;
-}
-
-.titulo-login p:hover {
-    cursor: pointer;
-}
-
-.form-login h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    font-size: 1.5em;
-    color: white;
-    text-align: center;
-    padding: 0.3em;
-    margin-right: 4.5em;
-}
-
-.dados-login {
-    margin: 1em 5em;
-}
-
-.dados {
-    display: flex;
-    flex-direction: column;
-}
-
-.dados label {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 0.5em;
-}
-
-.dados input {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    font-size: 1em;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.dados input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn input {
-    background-color: #564A3A;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    border: 0;
-    border-radius: 5px;
-    height: 2.5em;
-    width: 7em;
-    margin-top: 1em;
-}
-
-.link-login {
-    text-align: center;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 2em;
-}
-
-.link-login a {
-    text-decoration: none;
-}
-
-.sobre-nos .texto {
-    margin: 2em auto;
-    padding: 1em;
-    background-color: #564A3A;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
-    border-radius: 10px;
-}
-
-.sobre-nos .texto p {
-    margin: 1em;
-    color: white;
-    text-indent: 1.5em;
-    line-height: 1.5em;
-}
-
-.cadastro-cnpj {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.cadastro-cnpj p {
-    font-size: 1.3em;
-    opacity: 70%;
-}
-
-.cadastro-cnpj fieldset {
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-
-.cadastro-cnpj .dados-pj {
-    display: flex;
-    flex-direction: column;
-}
-
-.cadastro-cnpj .dados-pj label {
-    margin: 0.5em 0;
-}
-
-.cadastro-cnpj .dados-pj input {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.cadastro-cnpj .dados-pj input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.cadastro-cnpj .dados-pj select {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.cadastro-cnpj .dados-pj select:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.dados-pj-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-
-.dados-pj-btn input {
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-
-.dados-pj-btn input:hover {
-    cursor: pointer;
-}
-
-.cadastro-cpf {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.cadastro-cpf p {
-    font-size: 1.3em;
-    opacity: 70%;
-}
-
-.cadastro-cpf fieldset {
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-
-.cadastro-cpf .dados-pf {
-    display: flex;
-    flex-direction: column;
-}
-
-.cadastro-cpf .dados-pf label {
-    margin: 0.5em 0;
-}
-
-.cadastro-cpf .dados-pf input {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.cadastro-cpf .dados-pf input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.cadastro-cpf .dados-pf select {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.cadastro-cpf .dados-pf select:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.dados-pf-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-
-.dados-pf-btn input {
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-
-.dados-pf-btn input:hover {
-    cursor: pointer;
-}
-
-.endereco-entrega {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.endereco-entrega p {
-    font-size: 1.3em;
-    opacity: 70%;
-}
-
-.endereco-entrega fieldset {
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-
-.endereco-entrega .dados-end {
-    display: flex;
-    flex-direction: column;
-}
-
-.endereco-entrega .dados-end label {
-    margin: 0.5em 0;
-}
-
-.endereco-entrega .dados-end input {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.endereco-entrega .dados-end input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.endereco-entrega .dados-end select {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.endereco-entrega .dados-end select:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.dados-end-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-
-.dados-end-btn input {
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-
-.dados-end-btn input:hover {
-    cursor: pointer;
-}
-
-.dados-pagamento {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.dados-pagamento fieldset {
-    font-size: 1em;
-    font-weight: bold;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 2em 0;
-}
-
-.dados-pagamento p {
-    font-size: 1.3em;
-    opacity: 70%;
-}
-
-.dados-pagamento .dados-pag {
-    display: flex;
-    flex-direction: column;
-}
-
-.dados-pagamento .dados-pag label {
-    margin: 0.5em 0;
-}
-
-.dados-pagamento .dados-pag input {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.dados-pagamento .dados-pag input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.dados-pagamento .dados-pag select {
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-.dados-pagamento .dados-pag select:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.dados-pag-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em 0;
-}
-
-.dados-pag-btn input {
-    background-color: #564A3A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 2em;
-}
-
-.dados-pag-btn input:hover {
-    cursor: pointer;
-}
-
-.faleconosco {
-    margin: 2em auto;
-    width: 41%;
-    padding: 1em;
-}
-
-.contatos {
-    display: flex;
-    margin: 2em 0;
-}
-
-.contatos hr {
-    margin: 0 auto;
-    width: 3px;
-    border: none;
-    background-color: black;
-}
-
-.email h1 {
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.email p {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    opacity: 50%;
-}
-
-.telefone h1 {
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.telefone p {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    opacity: 50%;
-}
-
-.form-faleconosco form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-faleconosco form h1 {
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 1em 0;
-}
-
-.form-faleconosco form label {
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 0.5em 0;
-}
-
-.form-faleconosco form input {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    opacity: 30%;
-    border: 1px solid #564A3A;
-    border-radius: 5px;
-    width: 97%;
-    padding: 0.5em;
-}
-
-.form-faleconosco form input:focus {
-    border: 1px solid #564A3A;
-    opacity: 70%;
-}
-
-.form-faleconosco form textarea {
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: #564A3A;
-    opacity: 30%;
-    border: 0;
-    border-radius: 5px;
-    width: 97%;
-    padding: 0.5em;
-}
-
-.btn-faleconosco button {
-    background-color: #564A3A;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    border: 0;
-    border-radius: 5px;
-    padding: 0.5em 1.5em;
-    margin: 1em 40%;
-}
-
-.doacoes {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.doacoes .texto {
-    width: 60%;
-    text-indent: 1.5em;
-    line-height: 1.5em;
-    font-size: 1em;
-    opacity: 70%;
-}
-
-.doacoes .texto p {
-    margin: 1em 0;
-}
-
-.doacoes .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.doacoes .imagens figure img {
-    margin: 5em 2em;
-    width: 26em;
-    height: 18em;
-    border-radius: 5px;
-}
-
-.carrinho-dados {
-    width: 40%;
-    margin: 10em auto;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-}
-
-.titulo-comum {
-    margin: 3em 0;
-    font-size: 1.3em;
-}
-
-.carrinho-dados .mensagem {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 2em 0;
-    width: 100%;
-    text-align: center;
-}
-
-.progresso {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1em 0;
-}
-
-.progresso h1 {
-    font-size: 1em;
-    margin: 1em;
-}
-
-.progresso .etapas {
-    display: flex;
-}
-
-.progresso .etapas p {
-    font-size: 0.8em;
-    opacity: 70%;
-}
-
-.progresso .etapa-atual {
-    margin: 0 1em;
-}
-
-.progresso .etapa {
-    margin: 0 1em;
-}
-
-.progresso .etapa-atual .linha {
-    margin: 0 auto;
-    height: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #4DBE66;
-}
-
-.progresso .etapa .linha {
-    margin: 0 auto;
-    height: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #564A3A;
-}
-
-.titulo-pedido {
-    font-size: 1em;
-}
-
-.table table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 3em 0;
-}
-
-.table table tr td {
-    border: 1px solid black;
-    padding: 1em;
-}
-
-.table table tr th {
-    background-color: #564A3A;
-    color: white;
-    font-size: 1em;
-    padding: 0.5em;
-    border: 1px solid black;
-}
-
-.table table tr .produto h1 {
-    font-size: 1em;
-}
-
-.table table tr .produto p {
-    font-size: 0.8em;
-    opacity: 70%;
-}
-
-.table table tr td p {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.table table tr .qntd {
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0;
-}
-
-.table table tr .qntd div {
-    background-color: #564A3A;
-    color: white;
-    border-radius: 100%;
-    height: 1em;
-    width: 1em;
-    text-align: center;
-    padding: 0.1em;
-}
-
-.table table tr .qntd p {
-    margin: 0 1em;
-}
-
-.menor {
-    cursor: pointer;
-}
-
-.maior {
-    cursor: pointer;
-}
-
-.valores {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    margin-right: 3em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.valores .subtotal {
-    display: flex;
-}
-
-.valores .marcar {
-    font-weight: bold;
-    margin-right: 0.2em;
-    width: 100%;
-}
-
-.valores .frete {
-    display: flex;
-}
-
-.valores .desconto {
-    display: flex;
-}
-
-.valores .total {
-    display: flex;
-    background-color: #564A3A;
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 1em;
-    border: 0;
-    border-radius: 5px;
-    margin: 0.5em 0;
-}
-
-.produtos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.botoes-carrinho {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    margin-right: 3em;
-}
-
-.botoes-carrinho button {
-    background-color: #564A3A;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 1em;
-    border: 0;
-    border-radius: 5px;
-    margin: 1em 0;
-}
-
-.botoes-carrinho button a {
-    text-decoration: none;
-    color: white;
-}
-
-.titulo {
-    background-color: #564A3A;
-    height: 3em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -0.3em;
-}
-
-.titulo h1 {
-    color: white;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.cards {
-    margin: 1em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: #564A3A;
-    width: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin: 2em;
-}
-
-.card figure {
-    margin: 1em;
-    height: 80%;
-    width: 85%;
-}
-
-.card figure img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-}
-
-.card p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 1em;
-}
-
-.perfis-fornecedores {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto-perfis {
-    width: 75%;
-    padding: 2em;
-}
-
-.texto-perfis p {
-    color: black;
-    text-indent: 1.5em;
-    line-height: 1.5em;
-    opacity: 50%;
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
-}
-
-.perfis {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.perfil p {
-    text-align: center;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 1em;
-}
-
-.navegacao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em;
-}
-
-.bolinha-selecionada {
-    background-color: #564A3A;
-    height: 1em;
-    width: 1em;
-    border-radius: 100%;
-    margin: 0.5em;
-    cursor: pointer;
-}
-
-.bolinha {
-    background-color: #564A3A;
-    height: 0.7em;
-    width: 0.7em;
-    border-radius: 100%;
-    margin: 0.5em;
-    cursor: pointer;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em 0.5em;
-    background-color: #564A3A;
-}
-
-footer p {
-    color: white;
-    margin: 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-footer a {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.links p {
-    margin-bottom: 2em;
-}
-
-.links-contato {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.redes-sociais {
-    display: flex;
-}
-
-.redes-sociais figure {
-    margin-left: 2em;
+@media(max-width:480px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        background-color: #564A3A;
+        width: 100%;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo figure img {
+        width: 1.5em;
+    }
+
+    .nome-slogan figure img {
+        width: 10em;
+    }
+
+    .acesso {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .acesso figure img {
+        width: 1.5em;
+    }
+
+    header hr {
+        border: 0;
+        height: 1px;
+        background: #FF7A00;
+        opacity: 50%;
+    }
+
+    .menu nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    .marcador {
+        color: #FF7A00 !important;
+        opacity: 50%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0.3em;
+        background-color: #564A3A;
+    }
+
+    footer p {
+        color: white;
+        margin: 0.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    footer a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .links p {
+        margin-bottom: 1em;
+    }
+
+    .links-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-sociais {
+        display: flex;
+        margin: 0.5em 0;
+    }
+
+    .redes-sociais figure {
+        margin-left: 1em;
+    }
+
+    .redes-sociais figure img {
+        width: 1em;
+    }
+
+    .form-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-left: 15%;
+        visibility: hidden;
+    }
+
+    .form-login form {
+        background-color: white;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .titulo-login {
+        background-color: #564A3A;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .titulo-login button {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: #564A3A;
+        border: 0;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .titulo-login p:hover {
+        cursor: pointer;
+    }
+
+    .form-login h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        margin-right: 3.3em;
+    }
+
+    .dados-login {
+        margin: 0.5em 2em;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados label {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+    }
+
+    .dados input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        font-size: 0.8em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .dados input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn input {
+        background-color: #564A3A;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        border: 0;
+        border-radius: 5px;
+        height: 2.5em;
+        width: 7em;
+        margin-top: 1em;
+    }
+
+    .link-login {
+        text-align: center;
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .link-login a {
+        text-decoration: none;
+    }
+
+    .titulo-comum {
+        margin: 2em 0;
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .cadastro-cnpj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cnpj form {
+        max-width: 90%;
+    }
+
+    .cadastro-cnpj p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cnpj .dados-pj {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cnpj .dados-pj label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cnpj .dados-pj input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj .dados-pj select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pj-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pj-btn input:hover {
+        cursor: pointer;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        background-color: #564A3A;
+        width: 100%;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo figure img {
+        width: 1.5em;
+    }
+
+    .nome-slogan figure img {
+        width: 10em;
+    }
+
+    .acesso {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .acesso figure img {
+        width: 1.5em;
+    }
+
+    header hr {
+        border: 0;
+        height: 1px;
+        background: #FF7A00;
+        opacity: 50%;
+    }
+
+    .menu nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    .marcador {
+        color: #FF7A00 !important;
+        opacity: 50%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0.3em;
+        background-color: #564A3A;
+    }
+
+    footer p {
+        color: white;
+        margin: 0.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    footer a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .links p {
+        margin-bottom: 1em;
+    }
+
+    .links-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-sociais {
+        display: flex;
+        margin: 0.5em 0;
+    }
+
+    .redes-sociais figure {
+        margin-left: 1em;
+    }
+
+    .redes-sociais figure img {
+        width: 1em;
+    }
+
+    .form-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-left: 30%;
+        visibility: hidden;
+    }
+
+    .form-login form {
+        background-color: white;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .titulo-login {
+        background-color: #564A3A;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .titulo-login button {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: #564A3A;
+        border: 0;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .titulo-login p:hover {
+        cursor: pointer;
+    }
+
+    .form-login h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        margin-right: 3.3em;
+    }
+
+    .dados-login {
+        margin: 0.5em 2em;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados label {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+    }
+
+    .dados input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        font-size: 0.8em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .dados input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn input {
+        background-color: #564A3A;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        border: 0;
+        border-radius: 5px;
+        height: 2.5em;
+        width: 7em;
+        margin-top: 1em;
+    }
+
+    .link-login {
+        text-align: center;
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .link-login a {
+        text-decoration: none;
+    }
+
+    .titulo-comum {
+        margin: 2em 0;
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    .cadastro-cnpj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cnpj form {
+        max-width: 90%;
+    }
+
+    .cadastro-cnpj p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cnpj .dados-pj {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cnpj .dados-pj label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cnpj .dados-pj input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj .dados-pj select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pj-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pj-btn input:hover {
+        cursor: pointer;
+    }
+}
+
+@media(min-width:769px) and (max-width:1279px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        background-color: #564A3A;
+        width: 100%;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em;
+    }
+
+    .logo figure img {
+        width: 2em;
+    }
+
+    .nome-slogan figure img {
+        width: 15em;
+    }
+
+    .acesso {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .acesso figure img {
+        width: 2em;
+    }
+
+    header hr {
+        border: 0;
+        height: 1px;
+        background: #FF7A00;
+        opacity: 50%;
+    }
+
+    .menu nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    .marcador {
+        color: #FF7A00 !important;
+        opacity: 50%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0.3em;
+        background-color: #564A3A;
+    }
+
+    footer p {
+        color: white;
+        margin: 0.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    footer a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .links p {
+        margin-bottom: 1em;
+    }
+
+    .links-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes-sociais {
+        display: flex;
+        margin: 0.5em 0;
+    }
+
+    .redes-sociais figure {
+        margin-left: 1em;
+    }
+
+    .redes-sociais figure img {
+        width: 1em;
+    }
+
+    .form-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-left: 40%;
+        visibility: hidden;
+    }
+
+    .form-login form {
+        background-color: white;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .titulo-login {
+        background-color: #564A3A;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .titulo-login button {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: #564A3A;
+        border: 0;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .titulo-login p:hover {
+        cursor: pointer;
+    }
+
+    .form-login h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        margin-right: 3.3em;
+    }
+
+    .dados-login {
+        margin: 0.5em 2em;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados label {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+    }
+
+    .dados input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        font-size: 0.8em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .dados input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn input {
+        background-color: #564A3A;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        border: 0;
+        border-radius: 5px;
+        height: 2.5em;
+        width: 7em;
+        margin-top: 1em;
+    }
+
+    .link-login {
+        text-align: center;
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .link-login a {
+        text-decoration: none;
+    }
+
+    .titulo-comum {
+        margin: 2em 0;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .cadastro-cnpj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cnpj form {
+        max-width: 90%;
+    }
+
+    .cadastro-cnpj p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cnpj .dados-pj {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cnpj .dados-pj label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cnpj .dados-pj input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj .dados-pj select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cnpj .dados-pj select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pj-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pj-btn input:hover {
+        cursor: pointer;
+    }
+}
+
+@media(min-width: 1280px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        background-color: #564A3A;
+        width: 100%;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .acesso {
+        display: flex;
+    }
+
+    .logo figure img {
+        margin-left: 1em;
+        margin-right: 3em;
+        width: 2em;
+        height: 2em;
+    }
+
+    .nome-slogan figure img {
+        width: 15em;
+        height: 3em;
+    }
+
+    .carrinho img {
+        width: 2em;
+        height: 2em;
+    }
+
+    .login img {
+        margin-right: 1em;
+        margin-left: 1em;
+        width: 2em;
+        height: 2em;
+    }
+
+    header hr {
+        border: 0;
+        height: 1px;
+        background: #FF7A00;
+        opacity: 50%;
+    }
+
+    .menu nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 1em;
+    }
+
+    .menu nav ul li {
+        margin: 0.5em;
+    }
+
+    .menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .marcador {
+        color: #FF7A00 !important;
+        opacity: 50%;
+    }
+
+    .tipoCadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10em;
+    }
+
+    .tipoCadastro p {
+        font-size: 1.3em;
+        margin: 1em;
+        opacity: 70%;
+    }
+
+    .links-tipos {
+        display: flex;
+        margin: 1em 0;
+    }
+
+    .links-tipos div {
+        background-color: #564A3A;
+        padding: 1.5em;
+        border-radius: 5px;
+        margin: 5em 2em;
+    }
+
+    .links-tipos div a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .introducao-perfil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .introducao-perfil figure img {
+        width: 10em;
+        margin: 1em;
+    }
+
+    .introducao-perfil p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        opacity: 50%;
+        width: 50em;
+        line-height: 1.5em;
+        margin-left: 5em;
+    }
+
+    .card-compra {
+        background-color: #564A3A;
+        width: 21%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2em;
+    }
+
+    .card-compra figure {
+        margin: 1em;
+        height: 75%;
+        width: 80%;
+    }
+
+    .card-compra figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .card-compra div p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+
+    .btn-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+    }
+
+    .texto-card {
+        text-align: center;
+    }
+
+    .btn-card button {
+        width: 60%;
+        height: 50%;
+        margin: 0.5em;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .btn-card button figure img {
+        margin-top: -0.8em;
+        margin-left: -1.3em;
+        width: 2em;
+        height: 2em;
+    }
+
+    .btn-card button p {
+        margin-top: 0.2em;
+        color: #564A3A;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner figure img {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .texto-banner {
+        position: absolute;
+        top: 43vh;
+        width: 40em;
+    }
+
+    .texto-banner p {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2.3vw;
+    }
+
+    .btn-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        height: 3vw;
+        border-radius: 3px;
+        background-color: white;
+        margin-left: 35%;
+        margin-top: 2em;
+    }
+
+    .btn-banner a {
+        color: #564A3A;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+
+    #btn_form:hover {
+        cursor: pointer;
+    }
+
+    .form-login {
+        position: absolute;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: -90%;
+        margin-left: 35%;
+        visibility: hidden;
+    }
+
+    .form-login form {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .titulo-login {
+        background-color: #564A3A;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .titulo-login button {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: #564A3A;
+        border: 0;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .titulo-login p:hover {
+        cursor: pointer;
+    }
+
+    .form-login h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        font-size: 1.5em;
+        color: white;
+        text-align: center;
+        padding: 0.3em;
+        margin-right: 4.5em;
+    }
+
+    .dados-login {
+        margin: 1em 5em;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados label {
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .dados input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        font-size: 1em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .dados input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn input {
+        background-color: #564A3A;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        border: 0;
+        border-radius: 5px;
+        height: 2.5em;
+        width: 7em;
+        margin-top: 1em;
+    }
+
+    .link-login {
+        text-align: center;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    .link-login a {
+        text-decoration: none;
+    }
+
+    .sobre-nos .texto {
+        margin: 2em auto;
+        padding: 1em;
+        background-color: #564A3A;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .sobre-nos .texto p {
+        margin: 1em;
+        color: white;
+        text-indent: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .cadastro-cnpj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cnpj p {
+        font-size: 1.3em;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj fieldset {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .cadastro-cnpj .dados-pj {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cnpj .dados-pj label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cnpj .dados-pj input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .cadastro-cnpj .dados-pj input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cnpj .dados-pj select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .cadastro-cnpj .dados-pj select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pj-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 2em;
+    }
+
+    .dados-pj-btn input:hover {
+        cursor: pointer;
+    }
+
+    .cadastro-cpf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cpf p {
+        font-size: 1.3em;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf fieldset {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .cadastro-cpf .dados-pf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cpf .dados-pf label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cpf .dados-pf input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .cadastro-cpf .dados-pf input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf .dados-pf select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .cadastro-cpf .dados-pf select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pf-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pf-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 2em;
+    }
+
+    .dados-pf-btn input:hover {
+        cursor: pointer;
+    }
+
+    .endereco-entrega {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .endereco-entrega p {
+        font-size: 1.3em;
+        opacity: 70%;
+    }
+
+    .endereco-entrega fieldset {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .endereco-entrega .dados-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereco-entrega .dados-end label {
+        margin: 0.5em 0;
+    }
+
+    .endereco-entrega .dados-end input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .endereco-entrega .dados-end input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .endereco-entrega .dados-end select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .endereco-entrega .dados-end select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-end-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-end-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 2em;
+    }
+
+    .dados-end-btn input:hover {
+        cursor: pointer;
+    }
+
+    .dados-pagamento {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dados-pagamento fieldset {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 2em 0;
+    }
+
+    .dados-pagamento p {
+        font-size: 1.3em;
+        opacity: 70%;
+    }
+
+    .dados-pagamento .dados-pag {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dados-pagamento .dados-pag label {
+        margin: 0.5em 0;
+    }
+
+    .dados-pagamento .dados-pag input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .dados-pagamento .dados-pag input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pagamento .dados-pag select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .dados-pagamento .dados-pag select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pag-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pag-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 2em;
+    }
+
+    .dados-pag-btn input:hover {
+        cursor: pointer;
+    }
+
+    .faleconosco {
+        margin: 2em auto;
+        width: 41%;
+        padding: 1em;
+    }
+
+    .contatos {
+        display: flex;
+        margin: 2em 0;
+    }
+
+    .contatos hr {
+        margin: 0 auto;
+        width: 3px;
+        border: none;
+        background-color: black;
+    }
+
+    .email h1 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .email p {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .telefone h1 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .telefone p {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 50%;
+    }
+
+    .form-faleconosco form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-faleconosco form h1 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+
+    .form-faleconosco form label {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0.5em 0;
+    }
+
+    .form-faleconosco form input {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        width: 97%;
+        padding: 0.5em;
+    }
+
+    .form-faleconosco form input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .form-faleconosco form textarea {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: #564A3A;
+        opacity: 30%;
+        border: 0;
+        border-radius: 5px;
+        width: 97%;
+        padding: 0.5em;
+    }
+
+    .btn-faleconosco button {
+        background-color: #564A3A;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        padding: 0.5em 1.5em;
+        margin: 1em 40%;
+    }
+
+    .doacoes {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doacoes .texto {
+        width: 60%;
+        text-indent: 1.5em;
+        line-height: 1.5em;
+        font-size: 1em;
+        opacity: 70%;
+    }
+
+    .doacoes .texto p {
+        margin: 1em 0;
+    }
+
+    .doacoes .imagens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doacoes .imagens figure img {
+        margin: 5em 2em;
+        width: 26em;
+        height: 18em;
+        border-radius: 5px;
+    }
+
+    .carrinho-dados {
+        width: 40%;
+        margin: 10em auto;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .titulo-comum {
+        margin: 3em 0;
+        font-size: 1.3em;
+    }
+
+    .carrinho-dados .mensagem {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 2em 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .progresso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .progresso h1 {
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    .progresso .etapas {
+        display: flex;
+    }
+
+    .progresso .etapas p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .progresso .etapa-atual {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa-atual .linha {
+        margin: 0 auto;
+        height: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4DBE66;
+    }
+
+    .progresso .etapa .linha {
+        margin: 0 auto;
+        height: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #564A3A;
+    }
+
+    .titulo-pedido {
+        font-size: 1em;
+    }
+
+    .table table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 3em 0;
+    }
+
+    .table table tr td {
+        border: 1px solid black;
+        padding: 1em;
+    }
+
+    .table table tr th {
+        background-color: #564A3A;
+        color: white;
+        font-size: 1em;
+        padding: 0.5em;
+        border: 1px solid black;
+    }
+
+    .table table tr .produto h1 {
+        font-size: 1em;
+    }
+
+    .table table tr .produto p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .table table tr td p {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .table table tr .qntd {
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .table table tr .qntd div {
+        background-color: #564A3A;
+        color: white;
+        border-radius: 100%;
+        height: 1em;
+        width: 1em;
+        text-align: center;
+        padding: 0.1em;
+    }
+
+    .table table tr .qntd p {
+        margin: 0 1em;
+    }
+
+    .menor {
+        cursor: pointer;
+    }
+
+    .maior {
+        cursor: pointer;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-right: 3em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .valores .subtotal {
+        display: flex;
+    }
+
+    .valores .marcar {
+        font-weight: bold;
+        margin-right: 0.2em;
+        width: 100%;
+    }
+
+    .valores .frete {
+        display: flex;
+    }
+
+    .valores .desconto {
+        display: flex;
+    }
+
+    .valores .total {
+        display: flex;
+        background-color: #564A3A;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 0.5em 0;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .botoes-carrinho {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-right: 3em;
+    }
+
+    .botoes-carrinho button {
+        background-color: #564A3A;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 1em 0;
+    }
+
+    .botoes-carrinho button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .titulo {
+        background-color: #564A3A;
+        height: 3em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -0.3em;
+    }
+
+    .titulo h1 {
+        color: white;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .cards {
+        margin: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #564A3A;
+        width: 21%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2em;
+    }
+
+    .card figure {
+        margin: 1em;
+        height: 80%;
+        width: 85%;
+    }
+
+    .card figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .card p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+
+    .perfis-fornecedores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-perfis {
+        width: 75%;
+        padding: 2em;
+    }
+
+    .texto-perfis p {
+        color: black;
+        text-indent: 1.5em;
+        line-height: 1.5em;
+        opacity: 50%;
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold
+    }
+
+    .perfis {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .perfil p {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .bolinha-selecionada {
+        background-color: #564A3A;
+        height: 1em;
+        width: 1em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
+    .bolinha {
+        background-color: #564A3A;
+        height: 0.7em;
+        width: 0.7em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 0.5em;
+        background-color: #564A3A;
+    }
+
+    footer p {
+        color: white;
+        margin: 0.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    footer a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .links p {
+        margin-bottom: 2em;
+    }
+
+    .links-contato {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .redes-sociais {
+        display: flex;
+    }
+
+    .redes-sociais figure {
+        margin-left: 2em;
+    }
 }
