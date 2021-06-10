@@ -388,6 +388,207 @@
     .dados-pf-btn input:hover {
         cursor: pointer;
     }
+
+    .carrinho-dados {
+        width: 40%;
+        margin: 3em auto;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .carrinho-dados .mensagem {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 2em 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .progresso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+
+    .progresso h1 {
+        font-size: 0.8em;
+        margin: 0.7em;
+    }
+
+    .progresso .etapas {
+        display: flex;
+    }
+
+    .progresso .etapas p {
+        font-size: 0.6em;
+        opacity: 70%;
+    }
+
+    .progresso .etapa-atual {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa-atual .linha {
+        margin: 0 auto;
+        height: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4DBE66;
+    }
+
+    .progresso .etapa .linha {
+        margin: 0 auto;
+        height: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #564A3A;
+    }
+
+    .titulo-pedido {
+        font-size: 1em;
+    }
+
+    .table table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 2em 0;
+    }
+
+    .table table tr td {
+        border: 1px solid black;
+        padding: 0.5em;
+    }
+
+    .table table tr th {
+        background-color: #564A3A;
+        color: white;
+        font-size: 0.8em;
+        padding: 0.3em;
+        border: 1px solid black;
+    }
+
+    .table table tr .produto h1 {
+        font-size: 0.8em;
+    }
+
+    .table table tr .produto p {
+        font-size: 0.5em;
+        opacity: 70%;
+    }
+
+    .table table tr td p {
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .table table tr .qntd {
+        padding: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .table table tr .qntd div {
+        background-color: #564A3A;
+        color: white;
+        border-radius: 100%;
+        height: 0.8em;
+        width: 0.8em;
+        text-align: center;
+        padding: 0.1em;
+    }
+
+    .table table tr .qntd p {
+        margin: 0 0.7em;
+    }
+
+    .menor {
+        cursor: pointer;
+    }
+
+    .maior {
+        cursor: pointer;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .valores .subtotal {
+        display: flex;
+    }
+
+    .valores .marcar {
+        font-weight: bold;
+        margin-right: 0.2em;
+        width: 100%;
+    }
+
+    .valores .frete {
+        display: flex;
+    }
+
+    .valores .desconto {
+        display: flex;
+    }
+
+    .valores .total {
+        display: flex;
+        background-color: #564A3A;
+        color: white;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 0.5em 0;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .botoes-carrinho {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botoes-carrinho button {
+        background-color: #564A3A;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 0.5em 0;
+    }
+
+    .botoes-carrinho button a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -780,6 +981,187 @@
     .dados-pf-btn input:hover {
         cursor: pointer;
     }
+
+    .carrinho-dados {
+        width: 40%;
+        margin: 3em auto;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .progresso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+
+    .progresso h1 {
+        font-size: 0.8em;
+        margin: 0.7em;
+    }
+
+    .progresso .etapas {
+        display: flex;
+    }
+
+    .progresso .etapas p {
+        font-size: 0.6em;
+        opacity: 70%;
+    }
+
+    .progresso .etapa-atual {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa {
+        margin: 0 1em;
+    }
+
+    .progresso .etapa-atual .linha {
+        margin: 0 auto;
+        height: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4DBE66;
+    }
+
+    .progresso .etapa .linha {
+        margin: 0 auto;
+        height: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #564A3A;
+    }
+
+    .table table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 2em 0;
+    }
+
+    .table table tr td {
+        border: 1px solid black;
+        padding: 0.5em;
+    }
+
+    .table table tr th {
+        background-color: #564A3A;
+        color: white;
+        font-size: 0.8em;
+        padding: 0.3em;
+        border: 1px solid black;
+    }
+
+    .table table tr .produto h1 {
+        font-size: 0.8em;
+    }
+
+    .table table tr .produto p {
+        font-size: 0.5em;
+        opacity: 70%;
+    }
+
+    .table table tr td p {
+        font-size: 0.8em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .table table tr .qntd {
+        padding: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .table table tr .qntd div {
+        background-color: #564A3A;
+        color: white;
+        border-radius: 100%;
+        height: 0.8em;
+        width: 0.8em;
+        text-align: center;
+        padding: 0.1em;
+    }
+
+    .table table tr .qntd p {
+        margin: 0 0.7em;
+    }
+
+    .menor {
+        cursor: pointer;
+    }
+
+    .maior {
+        cursor: pointer;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .valores .subtotal {
+        display: flex;
+    }
+
+    .valores .marcar {
+        font-weight: bold;
+        margin-right: 0.2em;
+        width: 100%;
+    }
+
+    .valores .frete {
+        display: flex;
+    }
+
+    .valores .desconto {
+        display: flex;
+    }
+
+    .valores .total {
+        display: flex;
+        background-color: #564A3A;
+        color: white;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 0.5em 0;
+    }
+
+    .botoes-carrinho {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botoes-carrinho button {
+        background-color: #564A3A;
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 1em;
+        border: 0;
+        border-radius: 5px;
+        margin: 0.5em 0;
+    }
+
+    .botoes-carrinho button a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -1171,6 +1553,187 @@
 
     .dados-pf-btn input:hover {
         cursor: pointer;
+    }
+
+    .carrinho-dados {
+        width: 70%;
+        margin: 3em auto;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .progresso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .progresso h1 {
+        font-size: 1.5em;
+        margin: 0.7em;
+    }
+
+    .progresso .etapas {
+        display: flex;
+    }
+
+    .progresso .etapas p {
+        font-size: 1em;
+        opacity: 70%;
+    }
+
+    .progresso .etapa-atual {
+        margin: 0 2em;
+    }
+
+    .progresso .etapa {
+        margin: 0 2em;
+    }
+
+    .progresso .etapa-atual .linha {
+        margin: 0 auto;
+        height: 7px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4DBE66;
+    }
+
+    .progresso .etapa .linha {
+        margin: 0 auto;
+        height: 7px;
+        border: none;
+        border-radius: 10px;
+        background-color: #564A3A;
+    }
+
+    .table table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 5em 0;
+    }
+
+    .table table tr td {
+        border: 1px solid black;
+        padding: 1em;
+    }
+
+    .table table tr th {
+        background-color: #564A3A;
+        color: white;
+        font-size: 1.5em;
+        padding: 0.5em;
+        border: 1px solid black;
+    }
+
+    .table table tr .produto h1 {
+        font-size: 1.3em;
+    }
+
+    .table table tr .produto p {
+        font-size: 1em;
+        opacity: 70%;
+    }
+
+    .table table tr td p {
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .table table tr .qntd {
+        padding: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+
+    .table table tr .qntd div {
+        background-color: #564A3A;
+        color: white;
+        border-radius: 100%;
+        height: 1em;
+        width: 1em;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .table table tr .qntd p {
+        margin: 0 1em;
+    }
+
+    .menor {
+        cursor: pointer;
+    }
+
+    .maior {
+        cursor: pointer;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .valores .subtotal {
+        display: flex;
+    }
+
+    .valores .marcar {
+        font-weight: bold;
+        margin-right: 0.2em;
+        width: 100%;
+    }
+
+    .valores .frete {
+        display: flex;
+    }
+
+    .valores .desconto {
+        display: flex;
+    }
+
+    .valores .total {
+        display: flex;
+        background-color: #564A3A;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1.3em;
+        border: 0;
+        border-radius: 5px;
+        margin: 1em 0;
+    }
+
+    .botoes-carrinho {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botoes-carrinho button {
+        background-color: #564A3A;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 1.5em;
+        border: 0;
+        border-radius: 5px;
+        margin: 1em 0;
+    }
+
+    .botoes-carrinho button a {
+        text-decoration: none;
+        color: white;
     }
 }
 
