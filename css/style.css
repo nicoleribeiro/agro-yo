@@ -305,6 +305,89 @@
     .dados-pj-btn input:hover {
         cursor: pointer;
     }
+
+    .cadastro-cpf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cpf form {
+        max-width: 90%;
+    }
+
+    .cadastro-cpf p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cpf .dados-pf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cpf .dados-pf label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cpf .dados-pf input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf .dados-pf select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pf-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pf-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pf-btn input:hover {
+        cursor: pointer;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -614,6 +697,89 @@
     .dados-pj-btn input:hover {
         cursor: pointer;
     }
+
+    .cadastro-cpf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cpf form {
+        max-width: 90%;
+    }
+
+    .cadastro-cpf p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cpf .dados-pf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cpf .dados-pf label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cpf .dados-pf input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf .dados-pf select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pf-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pf-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pf-btn input:hover {
+        cursor: pointer;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -921,6 +1087,89 @@
     }
 
     .dados-pj-btn input:hover {
+        cursor: pointer;
+    }
+
+    .cadastro-cpf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro-cpf form {
+        max-width: 90%;
+    }
+
+    .cadastro-cpf p {
+        font-size: 0.8em;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf fieldset {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .cadastro-cpf .dados-pf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-cpf .dados-pf label {
+        margin: 0.5em 0;
+    }
+
+    .cadastro-cpf .dados-pf input {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf input:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .cadastro-cpf .dados-pf select {
+        opacity: 30%;
+        border: 1px solid #564A3A;
+        border-radius: 5px;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .cadastro-cpf .dados-pf select:focus {
+        border: 1px solid #564A3A;
+        opacity: 70%;
+    }
+
+    .dados-pf-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .dados-pf-btn input {
+        background-color: #564A3A;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: 0 1em;
+    }
+
+    .dados-pf-btn input:hover {
         cursor: pointer;
     }
 }
