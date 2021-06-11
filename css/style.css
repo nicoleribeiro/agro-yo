@@ -1192,6 +1192,40 @@
         text-indent: 1em;
         line-height: 1.5em;
     }
+
+    .tipoCadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .tipoCadastro p {
+        font-size: 1em;
+        margin: 1em;
+        opacity: 70%;
+    }
+
+    .links-tipos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-tipos div {
+        background-color: #564A3A;
+        padding: 1em;
+        border-radius: 5px;
+        margin: 1em 1em;
+    }
+
+    .links-tipos div a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+    }
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -2386,6 +2420,40 @@
         text-indent: 1em;
         line-height: 1.5em;
     }
+
+    .tipoCadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5em;
+    }
+
+    .tipoCadastro p {
+        font-size: 1.3em;
+        margin: 1em;
+        opacity: 70%;
+    }
+
+    .links-tipos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-tipos div {
+        background-color: #564A3A;
+        padding: 1.5em;
+        border-radius: 5px;
+        margin: 3em 1em;
+    }
+
+    .links-tipos div a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -3569,6 +3637,40 @@
         color: white;
         text-indent: 1em;
         line-height: 1.5em;
+    }
+
+    .tipoCadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5em;
+    }
+
+    .tipoCadastro p {
+        font-size: 1.5em;
+        margin: 4em;
+        opacity: 70%;
+    }
+
+    .links-tipos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-tipos div {
+        background-color: #564A3A;
+        padding: 1.5em;
+        border-radius: 5px;
+        margin: 4em 1em;
+    }
+
+    .links-tipos div a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5em;
     }
 }
 
