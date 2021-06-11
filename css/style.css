@@ -848,6 +848,162 @@
         padding: 0.5em 1em;
         width: 100%;
     }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner figure img {
+        position: relative;
+        width: 100%;
+    }
+
+    .texto-banner {
+        position: absolute;
+        top: 23%;
+        width: 50%;
+    }
+
+    .texto-banner p {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    .btn-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5em;
+        height: 1em;
+        border-radius: 3px;
+        background-color: white;
+        margin-left: 25%;
+        margin-top: 0.5em;
+    }
+
+    .btn-banner a {
+        color: #564A3A;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.4em;
+    }
+
+    #btn_form:hover {
+        cursor: pointer;
+    }
+
+    .cards {
+        margin: 0.5em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #564A3A;
+        width: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2em;
+    }
+
+    .card figure {
+        margin: 0.5em;
+        height: 80%;
+        width: 85%;
+    }
+
+    .card figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .card p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+
+    .perfis-fornecedores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-perfis {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .texto-perfis p {
+        color: black;
+        text-indent: 1em;
+        line-height: 1.5em;
+        opacity: 50%;
+        font-size: 0.6em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold
+    }
+
+    .perfis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .perfil figure a img {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .perfil p {
+        text-align: center;
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .bolinha-selecionada {
+        background-color: #564A3A;
+        height: 0.8em;
+        width: 0.8em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
+    .bolinha {
+        background-color: #564A3A;
+        height: 0.5em;
+        width: 0.5em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
 }
 
 @media(min-width:481px) and (max-width:768px) {
@@ -1700,6 +1856,160 @@
         padding: 0.5em 1em;
         width: 100%;
     }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner figure img {
+        position: relative;
+        width: 100%;
+    }
+
+    .texto-banner {
+        position: absolute;
+        top: 20%;
+        width: 50%;
+    }
+
+    .texto-banner p {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .btn-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8em;
+        height: 2em;
+        border-radius: 3px;
+        background-color: white;
+        margin-left: 35%;
+        margin-top: 0.5em;
+    }
+
+    .btn-banner a {
+        color: #564A3A;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    #btn_form:hover {
+        cursor: pointer;
+    }
+
+    .cards {
+        margin: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #564A3A;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2em;
+    }
+
+    .card figure {
+        margin: 0.5em;
+        height: 80%;
+        width: 85%;
+    }
+
+    .card figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .card p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .perfis-fornecedores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-perfis {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .texto-perfis p {
+        color: black;
+        text-indent: 1em;
+        line-height: 1.5em;
+        opacity: 50%;
+        font-size: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold
+    }
+
+    .perfis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .perfil figure a img {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .perfil p {
+        text-align: center;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .bolinha-selecionada {
+        background-color: #564A3A;
+        height: 0.8em;
+        width: 0.8em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
+    .bolinha {
+        background-color: #564A3A;
+        height: 0.5em;
+        width: 0.5em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
 }
 
 @media(min-width:769px) and (max-width:1279px) {
@@ -2540,6 +2850,160 @@
         border-radius: 5px;
         padding: 0.5em 1em;
         width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner figure img {
+        position: relative;
+        width: 100%;
+    }
+
+    .texto-banner {
+        position: absolute;
+        top: 20%;
+        width: 50%;
+    }
+
+    .texto-banner p {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .btn-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8em;
+        height: 2em;
+        border-radius: 3px;
+        background-color: white;
+        margin-left: 35%;
+        margin-top: 0.5em;
+    }
+
+    .btn-banner a {
+        color: #564A3A;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+
+    #btn_form:hover {
+        cursor: pointer;
+    }
+
+    .cards {
+        margin: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #564A3A;
+        width: 12em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2em;
+    }
+
+    .card figure {
+        margin: 0.5em;
+        height: 80%;
+        width: 85%;
+    }
+
+    .card figure img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+
+    .card p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .perfis-fornecedores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-perfis {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .texto-perfis p {
+        color: black;
+        text-indent: 1em;
+        line-height: 1.5em;
+        opacity: 50%;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold
+    }
+
+    .perfis {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .perfil figure a img {
+        margin-left: 25%;
+        width: 70%;
+    }
+
+    .perfil p {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 1em;
+    }
+
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .bolinha-selecionada {
+        background-color: #564A3A;
+        height: 0.8em;
+        width: 0.8em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
+    }
+
+    .bolinha {
+        background-color: #564A3A;
+        height: 0.5em;
+        width: 0.5em;
+        border-radius: 100%;
+        margin: 0.5em;
+        cursor: pointer;
     }
 }
 
